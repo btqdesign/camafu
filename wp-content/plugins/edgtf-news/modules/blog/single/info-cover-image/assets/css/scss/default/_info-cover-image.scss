@@ -1,0 +1,131 @@
+.edgtf-post-single-info-cover-image {
+	background-color: #f3f3f3;
+	
+	.edgtf-news-post-top-holder-image {
+		display: block;
+		width: 82%;
+		margin: 0 auto;
+		
+		@include laptop-landscape-large {
+			width: 92%;
+		}
+		
+		@include ipad-landscape {
+			width: 90%;
+		}
+		
+		@include phone-landscape {
+			width: 94%;
+		}
+	}
+	
+	> .edgtf-grid {
+		margin-top: -140px;
+		
+		@include ipad-landscape {
+			margin-top: -100px;
+		}
+		
+		@include ipad-portrait {
+			margin-top: -80px;
+		}
+	}
+	
+	.edgtf-blog-holder {
+		
+		article {
+			padding: 85px 85px 110px;
+			margin-bottom: 10px;
+			background-color: #fff;
+			border-bottom: 0;
+			
+			@include laptop-landscape-large {
+				padding: 75px 75px 100px;
+			}
+			
+			@include ipad-landscape {
+				padding: 60px 60px 85px;
+			}
+			
+			@include phone-landscape {
+				padding: 30px 30px 50px;
+			}
+			
+			.edgtf-author-description-wrapper {
+				@include edgtfRelativeHolderLayout();
+				margin-top: 40px;
+				padding: 0 12.4%;
+				box-sizing: border-box;
+				
+				@include laptop-landscape-large {
+					padding: 0 6.4%;
+				}
+				
+				@include laptop-landscape-medium {
+					padding: 0 4.4%;
+				}
+				
+				@include phone-landscape {
+					padding: 0;
+				}
+			}
+			
+			.edgtf-post-info-bottom {
+				display: block;
+				width: 100%;
+				padding: 0 12.4%;
+				box-sizing: border-box;
+				
+				@include laptop-landscape-large {
+					padding: 0 6.4%;
+				}
+				
+				@include laptop-landscape-medium {
+					padding: 0 4.4%;
+				}
+				
+				@include phone-landscape {
+					padding: 0;
+				}
+			}
+		}
+	}
+	
+	.edgtf-news-post-top-holder-info {
+		padding-top: 15px;
+		padding-bottom: 30px;
+	}
+	
+	.edgtf-related-posts-holder {
+		border-bottom: 0;
+		
+		.edgtf-layout2-item {
+			
+			.edgtf-ni-info-bottom {
+				margin-top: 23px;
+			}
+		}
+	}
+	
+	.edgtf-comment-holder {
+		background-color: #fff;
+		padding: 61px 238px 105px;
+		box-sizing: border-box;
+		
+		@include laptop-landscape-medium {
+			padding: 61px 198px 105px;
+		}
+		
+		@include ipad-landscape {
+			padding: 36px 100px 80px;
+		}
+		
+		@include ipad-portrait {
+			padding: 36px 60px 80px;
+		}
+		
+		@include phone-landscape {
+			padding: 16px 40px 60px;
+		}
+	}
+}

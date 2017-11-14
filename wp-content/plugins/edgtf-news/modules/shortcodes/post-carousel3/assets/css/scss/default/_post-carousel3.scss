@@ -1,0 +1,133 @@
+/* ==========================================================================
+   Post Carousel 3 layout style - begin
+   ========================================================================== */
+
+.edgtf-post-carousel3 {
+	
+	&.edgtf-news-skin-light {
+		
+		.edgtf-owl-slider {
+			
+			.owl-nav {
+				
+				.owl-prev,
+				.owl-next {
+					color: #fff;
+				}
+			}
+		}
+	}
+	
+	.edgtf-owl-slider {
+		
+		.owl-nav {
+			
+			.owl-prev,
+			.owl-next {
+				top: auto;
+				bottom: 71px;
+				left: auto;
+			}
+			
+			.owl-prev {
+				right: 152px;
+			}
+			
+			.owl-next {
+				right: 73px;
+			}
+			
+			@include laptop-landscape-medium {
+				
+				.owl-prev,
+				.owl-next {
+					bottom: 61px;
+				}
+				
+				.owl-prev {
+					right: 132px;
+				}
+				
+				.owl-next {
+					right: 53px;
+				}
+			}
+			
+			@include ipad-portrait {
+				
+				.owl-prev,
+				.owl-next {
+					bottom: 41px;
+				}
+				
+				.owl-prev {
+					right: 112px;
+				}
+				
+				.owl-next {
+					right: 33px;
+				}
+			}
+			
+			@include phone-landscape {
+				display: none;
+			}
+		}
+	}
+	
+	.edgtf-layout10-item {
+		
+		.edgtf-ni-content {
+			padding: 60px 57px 31px;
+			
+			@include laptop-landscape-medium {
+				padding: 40px 50px 32px;
+			}
+			
+			@include ipad-portrait {
+				padding: 24px 16px 13px;
+			}
+			
+			@include phone-landscape {
+				padding: 10px 15px;
+			}
+		}
+		
+		.edgtf-post-title {
+			max-width: 60%;
+			
+			@include laptop-landscape-medium {
+				max-width: 70%;
+			}
+			
+			@include ipad-portrait {
+				max-width: 90%;
+			}
+			
+			@include phone-landscape {
+				max-width: 100%;
+			}
+		}
+		
+		.edgtf-ni-info-top {
+			
+			@include ipad-portrait {
+				display: none;
+			}
+		}
+		
+		.edgtf-ni-info-bottom {
+			
+			@include ipad-portrait {
+				display: none;
+			}
+			
+			> div {
+				font-size: 14px;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Post Carousel 3 layout style  - end
+   ========================================================================== */

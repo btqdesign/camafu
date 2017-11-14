@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Layout 7 style - begin
+   ========================================================================== */
+
+.edgtf-layout7-item {
+	
+	.edgtf-ni-content {
+		@include edgtfRelativeHolderLayout();
+	}
+	
+	.edgtf-post-title {
+		
+		.edgtf-elements-holder & {
+			
+			a {
+				
+				&:hover {
+					color: inherit;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	
+	.edgtf-ni-info-top {
+		margin-bottom: 13px;
+	}
+	
+	.edgtf-ni-info-bottom {
+		margin-top: 21px;
+	}
+}
+
+.edgtf-news-layout7-widget {
+	
+	.edgtf-widget-title {
+		margin: 0 0 28px;
+	}
+	
+	.edgtf-layout7-item {
+		
+		&:last-child {
+			margin-bottom: 0 !important;
+		}
+	}
+	
+	.edgtf-page-footer & {
+		
+		.edgtf-ni-info {
+			
+			> div.edgtf-post-info-date {
+				
+				a {
+					
+					&:hover {
+						color: $first-main-color;
+					}
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Layout 7 shortcode style - end
+   ========================================================================== */

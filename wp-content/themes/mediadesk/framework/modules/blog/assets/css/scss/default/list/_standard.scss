@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Blog List - Standard style - begin
+   ========================================================================== */
+
+.edgtf-blog-holder {
+	
+	&.edgtf-blog-standard {
+		
+		article {
+			margin: 0 0 60px;
+			
+			&.has-post-thumbnail,
+			&.edgtf-post-has-media {
+				
+				.edgtf-post-heading {
+					margin: 0 0 32px;
+				}
+			}
+			
+			.edgtf-post-info-above-title {
+				margin: 0 0 8px;
+			}
+			
+			.edgtf-post-info-below-title {
+				margin: 17px 0 0;
+			}
+			
+			.edgtf-post-text-main {
+				margin: 0;
+			}
+			
+			.edgtf-post-info-bottom {
+				margin: 23px 0 0;
+				
+				.edgtf-tags-holder {
+					position: relative;
+					display: inline-block;
+					vertical-align: top;
+					
+					.edgtf-tags-label {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Blog List - Standard style - end
+   ========================================================================== */

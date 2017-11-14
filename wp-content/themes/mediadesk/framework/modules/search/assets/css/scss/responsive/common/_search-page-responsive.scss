@@ -1,0 +1,60 @@
+/* ==========================================================================
+# Search template responsive style - begin
+========================================================================== */
+
+@include ipad-landscape {
+    
+    .edgtf-search-page-holder {
+    
+        .edgtf-search-page-form {
+        
+            .edgtf-form-holder {
+            
+                .edgtf-search-field {
+                    width: calc(100% - 120px);
+                }
+            
+                .edgtf-search-submit {
+                    width: 120px;
+                }
+            }
+        }
+        
+        article {
+            padding: 40px 0;
+            
+            .edgtf-post-image {
+                width: 160px;
+            }
+            
+            .edgtf-post-title-area {
+                padding: 0 0 0 180px;
+                min-height: 100px;
+            }
+        }
+    }
+}
+
+@include phone-landscape {
+    
+    .edgtf-search-page-holder {
+        
+        article {
+            
+            .edgtf-post-image {
+                display: block;
+                float: none;
+            }
+            
+            .edgtf-post-title-area {
+                display: block;
+                margin-top: 30px;
+                padding: 0;
+                min-height: inherit;
+            }
+        }
+    }
+}
+/* ==========================================================================
+# Search template responsive style - end
+========================================================================== */

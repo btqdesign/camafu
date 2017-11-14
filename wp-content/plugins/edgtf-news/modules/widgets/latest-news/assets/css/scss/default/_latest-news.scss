@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Latest News Widget style - begin
+   ========================================================================== */
+
+.widget.edgtf-news-latest-news-widget {
+	display: inline-block;
+	vertical-align: middle;
+	
+	.edgtf-news-lnw-title-holder {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	span {
+
+		&.edgtf-news-lnw-title {
+			display: inline-block;
+			font-size: 12px;
+			letter-spacing: .1em;
+			text-transform: uppercase;
+		}
+	}
+	
+	.edgtf-news-lnw-slider-holder {
+		display: inline-block;
+		vertical-align: middle;
+		max-width: 200px;
+	}
+	
+	.edgtf-news-lnw-slider {
+		
+		.edgtf-news-lnw-slide {
+			padding: 0;
+			font-size: 12px;
+		}
+	}
+}
+/* ==========================================================================
+   Latest News Widget style - end
+   ========================================================================== */

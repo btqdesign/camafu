@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Fixed header style - begin
+   ========================================================================== */
+
+.edgtf-page-header {
+    
+    .edgtf-fixed-wrapper {
+        
+        &.fixed {
+            position: fixed;
+	        top: 0;
+	        left: 0;
+	        width: 100%;
+            -webkit-backface-visibility: hidden;
+            
+            .admin-bar & {
+                margin-top: 32px;
+            }
+	
+	        .edgtf-menu-area {
+		        background-color: #fff;
+	        }
+        }
+	
+	    .edgtf-fixed-on-scroll & {
+		
+		    .edgtf-menu-area {
+			    @include edgtfTransition(height .2s ease);
+		    }
+	    }
+    }
+}
+/* ==========================================================================
+   Fixed header style - end
+   ========================================================================== */

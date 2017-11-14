@@ -1,0 +1,205 @@
+/* ==========================================================================
+   Blog List - Standard Whole Post style - begin
+   ========================================================================== */
+
+.edgtf-blog-holder {
+	
+	&.edgtf-blog-standard-whole-post {
+		
+		article {
+			margin: 0 0 120px;
+			
+			.edgtf-post-image-holder {
+				@include edgtfRelativeHolderLayout();
+				margin-bottom: 20px;
+			}
+			
+			.edgtf-post-image {
+				width: 100%;
+				
+				img {
+					display: block;
+					width: 100%;
+				}
+			}
+			
+			.edgtf-post-image-info {
+				@include edgtfAbsoluteHolderLayout();
+				text-align: center;
+				background-color: rgba($header-dark-color, .2);
+				box-sizing: border-box;
+			}
+			
+			.edgtf-post-image-info-table {
+				@include edgtfTableLayout();
+			}
+			
+			.edgtf-post-image-info-table-cell {
+				@include edgtfTableCellLayout();
+				text-align: center;
+				
+				@media only screen and (min-width: $ipad-landscape-plus-pixel) {
+					padding-top: 40px;
+				}
+			}
+			
+			.edgtf-post-heading {
+				margin: 0;
+			}
+			
+			.edgtf-post-title {
+				max-width: 40%;
+				margin: 0 auto;
+				color: #fff;
+				
+				@include laptop-landscape-medium {
+					max-width: 60%;
+				}
+				
+				@include ipad-landscape {
+					max-width: 53%;
+				}
+				
+				@include ipad-portrait {
+					max-width: 68%;
+				}
+				
+				@include phone-landscape {
+					max-width: 94%;
+				}
+				
+				a {
+					color: inherit;
+					
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+			
+			.edgtf-news-post-info-above-title {
+				display: block;
+				margin: 0 0 11px;
+				line-height: 1;
+				
+				@include ipad-landscape {
+					margin-bottom: 6px;
+				}
+				
+				@include phone-landscape {
+					display: none;
+				}
+				
+				> div {
+					position: relative;
+					display: inline-block;
+					vertical-align: top;
+					padding-right: 10px;
+					font-size: 12px;
+					line-height: 20px;
+					color: #fff;
+					
+					&:after {
+						content: '/';
+						position: absolute;
+						top: 0;
+						right: 2px;
+					}
+					
+					&:last-child {
+						padding-right: 0;
+						
+						&:after {
+							content: '';
+						}
+					}
+					
+					&.edgtf-post-info-category {
+						font-size: 11px;
+						letter-spacing: .1em;
+						text-transform: uppercase;
+					}
+					
+					a {
+						color: inherit;
+						
+						&:hover {
+							color: rgba(#fff, .8);
+						}
+					}
+				}
+			}
+			
+			.edgtf-news-post-info-below-title {
+				display: block;
+				margin: 34px 0 0;
+				line-height: 1;
+				
+				@include ipad-landscape {
+					margin-top: 24px;
+				}
+				
+				@include phone-landscape {
+					display: none;
+				}
+				
+				> div {
+					position: relative;
+					display: inline-block;
+					vertical-align: top;
+					font-size: 14px;
+					line-height: 20px;
+					color: #fff;
+					
+					a {
+						color: inherit;
+						text-decoration: underline;
+						
+						&:hover {
+							color: rgba(#fff, .8);
+						}
+					}
+				}
+			}
+			
+			.edgtf-post-text-main {
+				margin: 0;
+			}
+			
+			.edgtf-post-info-bottom {
+				display: block;
+				width: 100%;
+				max-width: 928px;
+				margin: 23px auto 0;
+				padding-bottom: 25px;
+				border-bottom: 1px solid $default-border-color;
+				box-sizing: border-box;
+				
+				@include laptop-landscape-large {
+					max-width: 890px;
+				}
+				
+				@include ipad-landscape {
+					max-width: 790px;
+				}
+				
+				@include ipad-portrait {
+					max-width: 550px;
+				}
+				
+				@include phone-landscape {
+					max-width: 300px;
+				}
+				
+				.edgtf-tags-holder {
+					position: relative;
+					display: inline-block;
+					vertical-align: top;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Blog List - Standard Whole Post style - end
+   ========================================================================== */

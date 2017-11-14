@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Footer style - begin
+   ========================================================================== */
+
+.edgtf-page-footer {
+	@include edgtfRelativeHolderLayout();
+	z-index: 100;
+	box-sizing: border-box;
+	
+	.edgtf-footer-top-holder {
+		@include edgtfRelativeHolderLayout();
+		background-color: #000;
+		box-sizing: border-box;
+		
+		.edgtf-footer-top-alignment-center {
+			text-align: center;
+		}
+		
+		.edgtf-footer-top-alignment-left {
+			text-align: left;
+		}
+		
+		.edgtf-footer-top-alignment-right {
+			text-align: right;
+		}
+		
+		.edgtf-footer-top-inner {
+			box-sizing: border-box;
+			
+			&.edgtf-grid {
+				padding: 80px 0 52px;
+			}
+			
+			&.edgtf-full-width {
+				padding: 80px 50px 52px;
+			}
+		}
+	}
+	
+	.edgtf-footer-bottom-holder {
+		@include edgtfRelativeHolderLayout();
+		background-color: #000;
+		box-sizing: border-box;
+		text-align: center;
+		
+		.edgtf-footer-bottom-inner {
+			border-top: 1px solid #666666;
+			box-sizing: border-box;
+			
+			&.edgtf-grid {
+				padding: 50px 0;
+			}
+			
+			&.edgtf-full-width {
+				padding: 50px 50px;
+			}
+		}
+		
+		.edgtf-has-2-columns {
+			
+			.edgtf-footer-col {
+				float: left;
+				text-align: left;
+				
+				&:first-child {
+					width: 25%;
+				}
+				
+				&:last-child {
+					width: 75%;
+				}
+				
+				@include ipad-landscape {
+					
+					&:first-child {
+						width: 30%;
+					}
+					
+					&:last-child {
+						width: 70%;
+					}
+				}
+				
+				@include phone-landscape {
+					float: none;
+					width: 100% !important;
+				}
+			}
+		}
+	}
+
+	&.edgtf-footer-uncover {
+    
+        .no-touch body:not(.error404) & {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 99;
+            @include edgtfTransition(left 0.33s cubic-bezier(0.694, 0.0482, 0.335, 1));
+        }
+    
+        .edgtf-right-side-menu-opened & {
+            left: -270px;
+        }
+    }
+}
+
+/* ==========================================================================
+   Footer style - end
+   ========================================================================== */

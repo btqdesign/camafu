@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Layout 6 style - begin
+   ========================================================================== */
+
+.edgtf-layout6-item {
+	
+	.edgtf-ni-item-inner {
+		position: relative;
+		display: table;
+		width: 100%;
+		
+		> div {
+			display: table-cell;
+			vertical-align: top;
+		}
+	}
+	
+	.edgtf-post-image {
+		
+		img {
+			max-width: initial;
+		}
+	}
+	
+	.edgtf-ni-content {
+		width: 100%;
+		padding-left: 20px;
+	}
+	
+	.edgtf-ni-info-bottom {
+		margin-top: 8px;
+	}
+}
+
+.edgtf-news-layout6-widget {
+	
+	.edgtf-widget-title {
+		margin: 0 0 28px;
+	}
+	
+	.edgtf-layout6-item {
+		
+		&:last-child {
+			margin-bottom: 0 !important;
+		}
+	}
+}
+/* ==========================================================================
+   Layout 6 shortcode style - end
+   ========================================================================== */

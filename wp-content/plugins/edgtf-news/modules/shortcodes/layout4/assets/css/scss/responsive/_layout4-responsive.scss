@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Layout 4 responsive style - begin
+   ========================================================================== */
+
+@include ipad-landscape {
+
+	.edgtf-layout4-item {
+
+		.edgtf-ni-inner {
+
+			> div {
+
+				&.edgtf-ni-image-holder,
+				&.edgtf-ni-content {
+					display: block;
+					width: 100%;
+					padding: 0;
+				}
+
+				&.edgtf-ni-content {
+					padding: 27px 30px 30px;
+				}
+			}
+		}
+		
+		.edgtf-ni-info-bottom {
+			left: 30px;
+			bottom: 30px;
+			width: calc(100% - 60px);
+		}
+	}
+}
+/* ==========================================================================
+   Layout 4 responsive style - end
+   ========================================================================== */

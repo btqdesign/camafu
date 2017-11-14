@@ -1,0 +1,36 @@
+/* ==========================================================================
+   News Reaction style - begin
+   ========================================================================== */
+
+.edgtf-news-reactions{
+	@include edgtfTableLayout();
+	width: calc(100% + 20px);
+	margin: 0 -10px;
+
+	.edgtf-news-reaction-term{
+		display: table-cell;
+		vertical-align: top;
+		text-align: center;
+		padding: 0 10px;
+
+		.edgtf-reaction{
+			display: block;
+			padding: 15px 5px;
+			background-color: #fff;
+			border: 1px solid $default-border-color;
+			box-sizing: border-box;
+			@include edgtfTransition(background-color .2s ease-out);
+		}
+
+		.reacted{
+			cursor: default;
+			pointer-events: none;
+			background-color: #f1f1f1;
+		}
+	}
+}
+
+
+/* ==========================================================================
+	News Reaction style - end
+	========================================================================== */

@@ -1,0 +1,108 @@
+/* ==========================================================================
+   Masonry Layout style - begin
+   ========================================================================== */
+.edgtf-masonry-layout-item {
+	
+	&.edgtf-news-masonry-post-size-large-width,
+	&.edgtf-news-masonry-post-size-large-height {
+		
+		.edgtf-news-item-image-holder {
+			height: 100%;
+			width: 100%;
+			overflow: hidden;
+		}
+		
+		.edgtf-post-image {
+			height: 100%;
+		}
+	}
+	
+	&.edgtf-news-masonry-post-size-large-height {
+		
+		img {
+			height: 100%;
+			width: auto;
+			max-width: initial;
+		}
+	}
+	
+	.edgtf-ni-inner {
+		@include edgtfRelativeHolderLayout();
+	}
+	
+	.edgtf-ni-image-holder {
+		@include edgtfRelativeHolderLayout();
+		margin-bottom: 17px;
+	}
+	
+	.edgtf-ni-content {
+		@include edgtfRelativeHolderLayout();
+	}
+	
+	.edgtf-post-excerpt-holder {
+		margin-top: 18px;
+	}
+	
+	.edgtf-ni-info-top {
+		margin-bottom: 3px;
+	}
+	
+	.edgtf-ni-info-bottom {
+		margin-top: 18px;
+	}
+}
+
+.edgtf-masonry-layout {
+	
+	.edgtf-news-list-inner {
+		opacity: 0;
+		@include edgtfTransition(opacity .2s ease-in-out);
+		
+		&.edgtf-masonry-appeared {
+			opacity: 1;
+		}
+		
+		&.edgtf-masonry-layout-image-fixed {
+			
+			.edgtf-ni-image-holder {
+				margin-bottom: 0;
+			}
+		
+			.edgtf-ni-content {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				padding: 30px;
+				background: rgba(#000, .6);
+				background: -moz-linear-gradient(bottom,rgba(0,0,0,.65) 0,rgba(0,0,0,.45) 34%,transparent 100%);
+				background: -webkit-linear-gradient(bottom,rgba(0,0,0,.65) 0,rgba(0,0,0,.45) 34%,transparent 100%);
+				background: linear-gradient(to top,rgba(0,0,0,.65) 0,rgba(0,0,0,.45) 34%,transparent 100%);
+				box-sizing: border-box;
+			}
+		}
+	}
+	
+	$gallery_columns_number: ('1', '2', '3', '4', '5', '6');
+	
+	@for $i from 0 to length($gallery_columns_number) {
+		&.edgtf-news-columns-#{nth($gallery_columns_number,$i+1)} {
+			
+			.edgtf-news-item.edgtf-news-masonry-post-size-large-width,
+			.edgtf-news-item.edgtf-news-masonry-post-size-large-width-height {
+				width: 100% / ($i+1) * 2;
+			}
+			
+			.edgtf-masonry-layout-sizer {
+				width: 100% / ($i+1);
+			}
+		}
+	}
+	
+	.edgtf-masonry-layout-gutter {
+		width: 0;
+	}
+}
+/* ==========================================================================
+   Masonry Layout style - end
+   ========================================================================== */

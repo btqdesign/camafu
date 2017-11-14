@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Top header style - begin
+   ========================================================================== */
+
+.edgtf-top-bar {
+	@include edgtfRelativeHolderLayout();
+	height: 50px;
+	color: #fff;
+	font-size: 11px;
+	line-height: 1;
+	background-color: $default-heading-color;
+	z-index: 111;
+	
+	> .edgtf-vertical-align-containers {
+		padding: 0 21px 0 40px;
+	}
+	
+	.edgtf-grid {
+		height: 100%;
+		
+		.edgtf-vertical-align-containers {
+			padding-left: 0;
+			padding-right: 0;
+			
+			.edgtf-top-bar-in-grid-padding & {
+				padding: 0 21px 0 40px;
+			}
+		}
+	}
+	
+	.widget {
+		margin: 0;
+	}
+}
+/* ==========================================================================
+   Top header style - end
+   ========================================================================== */

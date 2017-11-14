@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Layout 3 style - begin
+   ========================================================================== */
+
+.edgtf-layout3-item {
+	
+	.edgtf-ni-inner {
+		display: table;
+		width: 100%;
+		table-layout: fixed;
+		
+		> div {
+			position: relative;
+			display: table-cell;
+			vertical-align: top;
+			width: 50%;
+		}
+	}
+	
+	.edgtf-ni-image-holder {
+		padding-right: 18px;
+
+		a,
+		img {
+			display:block;
+			width: 100%;
+		}
+	}
+	
+	.edgtf-ni-image-inner {
+		position: relative;
+
+		&:after {
+			content:"";
+			background:#000;
+			opacity:0;
+			pointer-events:none;
+			@include edgtfTransition(opacity .15s ease-in);
+			@include edgtfAbsoluteHolderLayout();
+		}
+	}
+	
+	.edgtf-ni-content {
+		padding-left: 18px;
+	}
+	
+	.edgtf-ni-info-top {
+		margin-top: 0;
+		margin-bottom: 8px;
+	}
+	
+	.edgtf-ni-info-bottom {
+		margin-top: 22px;
+	}
+	
+	.edgtf-post-excerpt-holder {
+		margin-top: 16px;
+	}
+
+	&.edgtf-hovered {
+		.edgtf-ni-image-inner,
+		.edgtf-post-image {
+			&:after {
+				opacity:0.3;
+			}
+		}
+
+		.edgtf-post-title a {
+			color:$first-main-color;
+		}
+	} 
+}
+/* ==========================================================================
+   Layout 3 shortcode style - end
+   ========================================================================== */

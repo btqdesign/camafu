@@ -1,0 +1,152 @@
+/* ==========================================================================
+   Weather Widget style - begin
+   ========================================================================== */
+
+.widget.edgtf-news-weather-widget {
+	background-color: #f4f4f4;
+	
+	&.edgtf-news-weather-simple {
+		background-color: transparent;
+		
+		.edgtf-weather-date,
+		.edgtf-weather-temperature {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		
+		&.edgtf-news-weather-days-1 {
+			
+			.edgtf-news-weather-single {
+				display: inline-block;
+				vertical-align: middle;
+			}
+			
+			.edgtf-weather-city {
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 7px;
+			}
+		}
+	}
+	
+	&.edgtf-news-weather-skin-dark {
+		color: #000;
+	}
+	
+	&.edgtf-news-weather-skin-light {
+		color: rgba(#fff, .6);
+	}
+	
+	.edgtf-ws-more {
+		@include edgtfTableLayout();
+		padding: 22px 20px;
+		
+		.edgtf-news-ws-left {
+			display: table-cell;
+			vertical-align: top;
+			width: 34%;
+
+			.edgtf-weather-temperature {
+				font-size: 50px;
+			}
+		}
+		
+		.edgtf-news-ws-right {
+			display: table-cell;
+			vertical-align: top;
+			width: 64%;
+		}
+		
+		.edgtf-news-weather-icon:before {
+			content: '';
+			color: #9c9a9a;
+			font-family: 'IonIcons';
+			font-size: 102px;
+			line-height: 48px;
+		}
+		
+		.edgtf-news-ws-mist:before {
+			content: "\f475";
+		}
+		
+		.edgtf-news-ws-snow:before,
+		.edgtf-news-ws-light-snow:before {
+			content: "\f4ae";
+		}
+		
+		.edgtf-news-ws-thunderstorm:before {
+			content: "\f4bc";
+		}
+		
+		.edgtf-news-ws-rain:before,
+		.edgtf-news-ws-drizzle:before,
+		.edgtf-news-ws-light-rain:before,
+		.edgtf-news-ws-moderate-rain:before,
+		.edgtf-news-ws-light-intensity-drizzle:before,
+		.edgtf-news-ws-light-intensity-shower-rain:before {
+			content: "\f494";
+		}
+		
+		.edgtf-news-ws-shower-rain:before {
+			content: "\f495";
+		}
+		
+		.edgtf-news-ws-broken-clouds:before {
+			content: "\f410";
+		}
+		
+		.edgtf-news-ws-scattered-clouds:before,
+		.edgtf-news-ws-few-clouds:before {
+			content: "\f40f";
+		}
+		
+		.edgtf-news-ws-clear-sky:before,
+		.edgtf-news-ws-sun:before {
+			content: "\f4b6";
+		}
+		
+		.edgtf-weather-top-part {
+			margin-bottom: 15px;
+			
+			.edgtf-weather-city {
+				margin: 0;
+				color: #000;
+			}
+		}
+	}
+	
+	.edgtf-news-weather-other-days {
+		@include edgtfTableLayout();
+		margin-top: 15px;
+		
+		.edgtf-news-weather-single {
+			display: table-cell;
+			vertical-align: bottom;
+			text-align: center;
+
+			.edgtf-weather-temperature {
+				font-size: 22px;
+				line-height: 1.2em;
+				font-weight: 500;
+
+				sup {
+					position: absolute;
+					top: 11px;
+					font-size: 13px;
+					font-weight: 600;
+				}
+			}
+
+			.edgtf-weather-day {
+				color: #9c9a9a;
+				font-size: 14px;
+				line-height: 1.2em;
+				margin: 1px 0 0;
+				padding: 0
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Weather Widget style - end
+   ========================================================================== */

@@ -1,0 +1,50 @@
+/* ==========================================================================
+   WooCommerce Onsale and Out of Stock styles - begin
+   ========================================================================== */
+
+.woocommerce {
+    
+    .edgtf-onsale,
+    .edgtf-out-of-stock {
+        @include edgtfWooCommerceMarksGeneralStyle();
+    }
+    
+    .edgtf-onsale {
+        @include edgtfWooCommerceSaleStyle();
+    }
+    
+    .edgtf-out-of-stock {
+        @include edgtfWooCommerceOutOfStockyStyle();
+    }
+}
+
+.edgtf-woo-single-page {
+    
+    .edgtf-single-product-content {
+        
+        .edgtf-onsale {
+            right: 10px;
+        }
+        
+        .edgtf-out-of-stock {
+            left: 10px;
+        }
+    }
+    
+    &.edgtf-woo-single-thumb-on-left-side {
+        
+        .edgtf-single-product-content {
+            
+            .edgtf-onsale {
+                right: 0;
+            }
+            
+            .edgtf-out-of-stock {
+                left: 120px;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   WooCommerce Onsale and Out of Stock styles - end
+   ========================================================================== */

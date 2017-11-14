@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Layout 3 responsive style - begin
+   ========================================================================== */
+
+@include ipad-landscape {
+
+	.edgtf-layout3-item {
+
+		.edgtf-ni-inner {
+
+			> div {
+
+				&.edgtf-ni-image-holder,
+				&.edgtf-ni-content {
+					display: block;
+					width: 100%;
+					padding: 0;
+				}
+
+				&.edgtf-ni-content {
+					padding: 15px 0 0;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Layout 3 responsive style - end
+   ========================================================================== */

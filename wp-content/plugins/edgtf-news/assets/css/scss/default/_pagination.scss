@@ -1,0 +1,277 @@
+/* ==========================================================================
+   News shortcodes pagination standard style - begin
+   ========================================================================== */
+
+.edgtf-news-holder {
+	
+	&.edgtf-news-pag-standard {
+		
+		.edgtf-news-list-inner {
+			opacity: 1;
+			@include edgtfTransition(opacity .2s ease-out);
+		}
+		
+		&.edgtf-news-standard-pag-animate {
+			
+			.edgtf-news-list-inner {
+				opacity: 0;
+			}
+		}
+	}
+}
+
+.edgtf-news-standard-pagination {
+	@include edgtfRelativeHolderLayout();
+	padding: 14px 0 0;
+	margin: 20px 0;
+	border-top: 1px solid $default-border-color;
+	clear: both;
+	
+	ul {
+		@include edgtfRelativeHolderLayout();
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-align: right;
+		
+		li {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			padding: 0;
+			margin: 0 7px;
+
+			a {
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0;
+				padding: 0;
+				color: $default-text-color;
+				font-size: 13px;
+			}
+			
+			&.edgtf-news-pag-active,
+			&:hover {
+				
+				a {
+					color: $default-heading-color;
+				}
+			}
+			
+			&.edgtf-news-pag-prev,
+			&.edgtf-news-pag-next,
+			&.edgtf-news-pag-first-page,
+			&.edgtf-news-pag-last-page {
+				top: 1px;
+				
+				a {
+					font-size: 14px;
+					@include edgtfTransition(color .2s ease-out, opacity .2s ease-out);
+					
+					span {
+						display: block;
+						line-height: inherit;
+						
+						&:before {
+							display: block;
+							line-height: inherit;
+						}
+					}
+				}
+			}
+			
+			&.edgtf-news-pag-prev {
+				
+				a {
+					opacity: 0;
+				}
+			}
+			
+			&.edgtf-news-pag-next {
+				
+				a {
+					opacity: 1;
+				}
+			}
+
+			&.edgtf-news-pag-first-page {
+
+				a {
+					opacity: 0;
+				}
+			}
+			
+			&.edgtf-news-pag-last-page {
+
+				a {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   News shortcodes pagination standard style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   News shortcodes pagination simple style - begin
+   ========================================================================== */
+
+.edgtf-news-simple-pagination {
+	@include edgtfRelativeHolderLayout();
+	margin: 50px 0 30px;
+	padding: 33px 0 0;
+	text-align: right;
+	border-top: 1px solid $default-border-color;
+	
+	a {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		color: $default-heading-color;
+		font-size: 11px;
+		line-height: 1;
+		letter-spacing: .1em;
+		text-align: center;
+		
+		&:hover {
+			
+			.edgtf-news-simple-pag-line {
+				width: 23px;
+			}
+		}
+		
+		.edgtf-news-simple-pag-label {
+			position: relative;
+			display: block;
+			margin-bottom: 12px;
+			line-height: 11px;
+		}
+		
+		.edgtf-news-simple-pag-arrow-holder {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			height: 17px;
+			line-height: 17px;
+		}
+		
+		.edgtf-news-simple-pag-arrow {
+			position: absolute;
+			top: 0;
+			right: -7px;
+			width: 10px;
+			height: 10px;
+			border-bottom: 2px solid currentColor;
+			border-left: 2px solid currentColor;
+			@include edgtfTransform(rotate(-135deg));
+		}
+		
+		.edgtf-news-simple-pag-line {
+			position: absolute;
+			top: 5px;
+			right: -7px;
+			width: 13px;
+			height: 2px;
+			background-color: currentColor;
+			@include edgtfTransition(width .3s ease-in-out);
+		}
+	}
+}
+/* ==========================================================================
+   News shortcodes simple style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   News shortcodes pagination load more style - begin
+   ========================================================================== */
+
+.edgtf-news-load-more-pagination {
+	@include edgtfRelativeHolderLayout();
+	margin: 20px 0 80px;
+	text-align: center;
+}
+/* ==========================================================================
+   News shortcodes load more style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   News shortcodes loading element style - begin
+   ========================================================================== */
+
+.edgtf-news-pag-loading {
+	position: relative;
+	display: none;
+	width: 100%;
+	margin: 40px 0 20px;
+	color: $default-heading-color;
+	text-align: center;
+	
+	&.edgtf-news-pag-standard-trigger {
+		position: absolute;
+		top: 50px;
+		left: 0;
+	}
+	
+	&.edgtf-showing {
+		display: block;
+	}
+	
+	> div {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		width: 14px;
+		height: 14px;
+		margin: 0 3px;
+		background-color: $default-heading-color;
+		border-radius: 100%;
+		@include edgtfAnimation(news-pag-bouncedelay 1.4s infinite ease-in-out both);
+	}
+	
+	.edgtf-news-pag-bounce1 {
+		-webkit-animation-delay: -0.32s;
+		-moz-animation-delay: -0.32s;
+		animation-delay: -0.32s;
+	}
+	
+	.edgtf-news-pag-bounce2 {
+		-webkit-animation-delay: -0.16s;
+		-moz-animation-delay: -0.16s;
+		animation-delay: -0.16s;
+	}
+}
+
+@-webkit-keyframes news-pag-bouncedelay {
+	0%, 80%, 100% {
+		-webkit-transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1.0);
+	}
+}
+
+@-moz-keyframes news-pag-bouncedelay {
+	0%, 80%, 100% {
+		-moz-transform: scale(0);
+	}
+	40% {
+		-moz-transform: scale(1.0);
+	}
+}
+
+@keyframes news-pag-bouncedelay {
+	0%, 80%, 100% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+/* ==========================================================================
+   News shortcodes loading element style - end
+   ========================================================================== */

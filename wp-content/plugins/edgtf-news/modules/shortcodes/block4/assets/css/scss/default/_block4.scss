@@ -1,0 +1,166 @@
+/* ==========================================================================
+   BLock 4 style - begin
+   ========================================================================== */
+
+.edgtf-news-block4-widget {
+	
+	&.edgtf-news-block4-boxed {
+		background-color: #fff;
+		padding: 30px 40px;
+		box-sizing: border-box;
+	}
+
+	.edgtf-news-holder {
+
+		.edgtf-news-block-part-featured,
+		.edgtf-news-block-part-non-featured {
+			width: 100%;
+		}
+		
+		.edgtf-layout5-item {
+			
+			.touch & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				.edgtf-ni-content {
+					opacity: 1;
+				}
+			}
+			
+			.edgtf-ni-content {
+				opacity: 0;
+				@include edgtfTransition(opacity .3s ease-in-out);
+			}
+		}
+	}
+
+	/** Tabs Style - begin **/
+
+	.edgtf-plw-tabs-2 {
+
+		.edgtf-plw-tabs-inner{
+			@include edgtfColumnsHolder();
+		}
+
+		.edgtf-plw-tabs-tabs-holder{
+			@include edgtfRelativeHolderLayout();
+			padding: 0 15px;
+			margin: 0 0 28px;
+
+			.edgtf-plw-tabs-tab {
+				display: inline-block;
+				vertical-align: top;
+				margin: 0 34px 0 0;
+
+				&.edgtf-plw-tabs-active-item {
+
+					a {
+						color: $default-heading-color;
+					}
+				}
+
+				a {
+					display: block;
+					color: $default-text-color;
+					font-size: 18px;
+					font-weight: 600;
+					letter-spacing: .08em;
+					text-transform: uppercase;
+
+					&:hover {
+						color: $default-heading-color;
+					}
+				}
+			}
+		}
+
+		.edgtf-plw-tabs-content-holder{
+			position: relative;
+
+			.edgtf-plw-tabs-content{
+				@include edgtfColumnsItem();
+				position: absolute;
+				width: 100%;
+				max-width: 100%;
+				opacity: 0;
+				z-index: 1;
+				@include edgtfTransition(opacity 0.23s);
+
+				&.edgtf-plw-tabs-active-item {
+					opacity: 1;
+					z-index: 2;
+				}
+			}
+		}
+
+		.edgtf-pt-six-item {
+			margin: 0 0 5px;
+		}
+
+		.edgtf-pt-six-item .edgtf-pt-six-info-section > div{
+			color: #a8a7a7;
+		}
+	}
+
+	/** Tabs Style - end **/
+
+	.edgtf-tabs-button-wrap {
+		@include edgtfRelativeHolderLayout();
+		border-top: 1px solid $default-border-color;
+		padding: 26px 0 0;
+		margin: 10px 0 0;
+		text-align: right;
+
+		.edgtf-read-more-tabs {
+			display: inline-block;
+
+			&:hover {
+
+				.edgtf-rm-line {
+					width: 23px;
+				}
+			}
+
+			.edgtf-btn-text {
+				display: block;
+				font-size: 11px;
+				letter-spacing: .1em;
+			}
+
+			.edgtf-arow-wrapper {
+				position: relative;
+				display: block;
+				width: 20px;
+				height: 20px;
+				margin: 5px auto 0;
+			}
+
+			.edgtf-rm-arrow {
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 10px;
+				height: 10px;
+				border-bottom: 2px solid currentColor;
+				border-left: 2px solid currentColor;
+				@include edgtfTransform(rotate(-135deg));
+			}
+
+			.edgtf-rm-line {
+				position: absolute;
+				top: 5px;
+				right: 0;
+				width: 13px;
+				height: 2px;
+				background-color: currentColor;
+				@include edgtfTransition(width .3s ease-in-out);
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Block 4 shortcode style - end
+   ========================================================================== */

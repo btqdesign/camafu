@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Video Layout 1 style - begin
+   ========================================================================== */
+
+.edgtf-video-layout1-item {
+	
+	.edgtf-news-video-holder {
+		@include edgtfRelativeHolderLayout();
+		margin-bottom: 3px;
+	}
+	
+	.edgtf-ni-content {
+		@include edgtfRelativeHolderLayout();
+	}
+	
+	.edgtf-ni-info-top {
+		margin-top: 16px;
+	}
+	
+	.edgtf-post-title {
+		margin-top: 13px;
+	}
+	
+	.edgtf-post-excerpt-holder {
+		margin-top: 21px;
+	}
+	
+	.edgtf-ni-info-bottom {
+		margin-top: 21px;
+	}
+}
+/* ==========================================================================
+   Video Layout 1 shortcode style - end
+   ========================================================================== */

@@ -1,0 +1,87 @@
+/* ==========================================================================
+   Post Carousel 4 layout style - begin
+   ========================================================================== */
+
+.edgtf-post-carousel4 {
+	
+	&.edgtf-news-skin-light {
+		
+		.edgtf-owl-slider {
+			
+			.owl-nav {
+				
+				.owl-prev,
+				.owl-next {
+					color: #fff;
+				}
+			}
+		}
+	}
+	
+	.edgtf-layout2-item {
+		height: 100vh;
+		
+		.admin-bar & {
+			height: calc(100vh - 32px);
+		}
+		
+		.edgtf-post-image {
+			@include edgtfRelativeHolderLayout();
+			height: 100%;
+			
+			img {
+				max-height: 100%;
+			}
+		}
+		
+		.edgtf-ni-content {
+			top: calc(100% - 106px);
+			left: 13.3%;
+			width: 73.4%;
+			padding: 87px 35px 90px;
+			text-align: center;
+			
+			@include laptop-landscape-medium {
+				padding: 45px 25px;
+			}
+			
+			@include ipad-landscape {
+				padding: 35px 20px;
+			}
+
+			@include ipad-portrait {
+				left: 8%;
+				width: 84%;
+				padding: 30px 15px;
+			}
+		}
+		
+		.edgtf-post-title {
+			max-width: 68%;
+			margin: 0 auto;
+			
+			@include laptop-landscape-medium {
+				max-width: 74%;
+			}
+
+			@include ipad-landscape {
+				max-width: 94%;
+			}
+		}
+		
+		.edgtf-ni-info-bottom {
+			margin-top: 33px;
+			
+			> div {
+				font-size: 14px;
+			}
+
+			@include ipad-portrait {
+				margin-top: 18px;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Post Carousel 4 layout style  - end
+   ========================================================================== */

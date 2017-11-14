@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Layout 9 style - begin
+   ========================================================================== */
+
+.edgtf-layout9-item {
+	
+	.edgtf-ni-content {
+		@include edgtfRelativeHolderLayout();
+		text-align: center;
+	}
+	
+	.edgtf-ni-info-top {
+		margin-bottom: 28px;
+	}
+	
+	.edgtf-post-excerpt-holder {
+		margin-top: 34px;
+	}
+}
+/* ==========================================================================
+   Layout 9 shortcode style - end
+   ========================================================================== */

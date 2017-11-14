@@ -1,0 +1,69 @@
+/* ==========================================================================
+   Title style - begin
+   ========================================================================== */
+
+.edgtf-title-holder {
+    @include edgtfRelativeHolderLayout();
+    height: 240px;
+    background-color: #fff;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    z-index: 101;
+	
+	&.edgtf-title-full-width {
+		
+		.edgtf-grid {
+			@include edgtfRelativeHolderLayout();
+			margin: 0;
+			padding: 0 60px;
+			box-sizing: border-box;
+		}
+	}
+	
+	&.edgtf-bg-responsive {
+		height: auto !important; // because of inline style
+		
+		.edgtf-title-image {
+			display: block;
+		}
+		
+		.edgtf-title-wrapper {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			@include edgtfTransform(translateY(-50%));
+		}
+	}
+	
+	&.edgtf-bg-parallax {
+		background-attachment: fixed;
+	}
+	
+	&.edgtf-va-bottom {
+		
+		.edgtf-title-inner {
+			vertical-align: bottom;
+		}
+	}
+	
+	.edgtf-title-image {
+		display: none;
+		
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+    
+    .edgtf-title-wrapper {
+        @include edgtfTableLayout();
+	    box-sizing: border-box;
+    }
+    
+    .edgtf-title-inner {
+        @include edgtfTableCellLayout();
+    }
+}
+/* ==========================================================================
+   Title style - end
+   ========================================================================== */

@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Layout 8 style - begin
+   ========================================================================== */
+
+.edgtf-news-holder.edgtf-layout8 {
+	
+	.edgtf-news-list-inner {
+		counter-reset: pagination;
+	}
+	
+	$columns_space_label: ('no', 'tiny', 'small', 'normal', 'medium', 'large', 'huge' );
+	$columns_space_width: (0, 5, 10, 15, 20, 25, 40);
+	
+	@for $i from 0 to length($columns_space_label) {
+		&.edgtf-#{nth($columns_space_label,$i+1)}-space {
+			$column_width: nth($columns_space_width,$i+1);
+			
+			.edgtf-layout8-item {
+				
+				&:after {
+					$right_pos: #{$column_width + 20}px;
+					
+					right: $right_pos;
+				}
+			}
+		}
+	}
+}
+
+.edgtf-layout8-item {
+	position: relative;
+	
+	&:after {
+		content: counter(pagination);
+		counter-increment: pagination;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		width: 38px;
+		height: 38px;
+		font-size: 14px;
+		line-height: 38px;
+		font-weight: 700;
+		text-align: center;
+		color: #fff;
+		background-color: $first-main-color;
+		border-radius: 100%;
+	}
+	
+	.edgtf-ni-item-inner {
+		@include edgtfRelativeHolderLayout();
+	}
+	
+	.edgtf-ni-image-holder {
+		@include edgtfRelativeHolderLayout();
+		margin-bottom: 16px;
+		
+	}
+	
+	.edgtf-ni-content {
+		@include edgtfRelativeHolderLayout();
+	}
+}
+/* ==========================================================================
+   Layout 8 shortcode style - end
+   ========================================================================== */

@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Video Layout 2 style - begin
+   ========================================================================== */
+
+.edgtf-video-layout2-item {
+	
+	.edgtf-ni-image-holder {
+		@include edgtfRelativeHolderLayout();
+		margin-bottom: 3px;
+	}
+	
+	.edgtf-ni-video-button {
+		@include edgtfRelativeHolderLayout();
+		
+		&:before {
+			content:"";
+			opacity:0;
+			background-color:rgba(0,0,0,.3);
+			@include edgtfTransition(opacity .2s ease-in-out);
+			@include edgtfAbsoluteHolderLayout();
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: calc(50% - 33px);
+			left: calc(50% - 33px);
+			width: 67px;
+			height: 67px;
+			background: url(../img/video-post-button.png) no-repeat center; 
+		}
+
+		&:hover {
+			&:before {
+				opacity:1;
+			}
+		}
+	}
+	
+	.edgtf-post-image {
+		width:auto;
+		display:inline-block;
+	}
+
+	.edgtf-ni-content {
+		@include edgtfRelativeHolderLayout();
+	}
+	
+	.edgtf-ni-info-top {
+		margin-top: 31px;
+	}
+	
+	.edgtf-post-title {
+		margin-top: 13px;
+	}
+	
+	.edgtf-post-excerpt-holder {
+		margin-top: 21px;
+	}
+	
+	.edgtf-ni-info-bottom {
+		margin-top: 21px;
+	}
+}
+/* ==========================================================================
+   Video Layout 2 shortcode style - end
+   ========================================================================== */

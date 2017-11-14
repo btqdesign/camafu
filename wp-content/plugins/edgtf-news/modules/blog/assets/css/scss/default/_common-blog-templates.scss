@@ -1,0 +1,138 @@
+.edgtf-post-single-template-layout {
+	
+	.edgtf-news-post-top-holder {
+		position: relative;
+		margin-bottom: 20px;
+		
+		.single-format-audio & {
+			margin-bottom: 0;
+		}
+	}
+	
+	.edgtf-news-post-top-holder-info {
+		@include edgtfRelativeHolderLayout();
+		text-align: center;
+		box-sizing: border-box;
+		
+		.edgtf-post-title {
+			max-width: 60%;
+			margin: 0 auto;
+			
+			@include ipad-landscape {
+				max-width: 90%;
+			}
+		}
+	}
+	
+	.edgtf-news-post-top-holder-image {
+		@include edgtfRelativeHolderLayout();
+	}
+	
+	.edgtf-news-post-top-info-holder {
+		@include edgtfAbsoluteHolderLayout();
+		
+		.edgtf-top-part-post-image {
+			width: 100%;
+			text-align: center;
+		}
+		
+		.edgtf-post-title {
+			max-width: 60%;
+			margin: 0 auto;
+			
+			@include ipad-landscape {
+				max-width: 90%;
+			}
+		}
+	}
+	
+	.edgtf-news-post-top-table {
+		@include edgtfTableLayout();
+	}
+	
+	.edgtf-news-post-top-table-cell {
+		@include edgtfTableCellLayout();
+		text-align: center;
+	}
+	
+	.edgtf-post-info-hot-trending {
+		z-index: 1;
+	}
+	
+	.edgtf-top-part-post-image {
+		
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+	
+	.edgtf-news-post-info-above-title {
+		display: block;
+		margin: 0 0 11px;
+		line-height: 1;
+		
+		> div {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			padding-right: 10px;
+			font-size: 12px;
+			line-height: 20px;
+			color: $default-heading-color;
+			
+			&:after {
+				content: '/';
+				position: absolute;
+				top: 0;
+				right: 2px;
+			}
+			
+			&:last-child {
+				padding-right: 0;
+				
+				&:after {
+					content: '';
+				}
+			}
+			
+			&.edgtf-post-info-category {
+				font-size: 11px;
+				letter-spacing: .1em;
+				text-transform: uppercase;
+			}
+			
+			a {
+				color: inherit;
+				
+				&:hover {
+					color: $first-main-color;
+				}
+			}
+		}
+	}
+	
+	.edgtf-news-post-info-below-title {
+		display: block;
+		margin: 34px 0 0;
+		line-height: 1;
+		
+		> div {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 14px;
+			line-height: 20px;
+			color: $default-heading-color;
+			
+			a {
+				color: inherit;
+				text-decoration: underline;
+				
+				&:hover {
+					color: $first-main-color;
+				}
+			}
+		}
+	}
+}

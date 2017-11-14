@@ -1,0 +1,2108 @@
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+/* Button mixins - start */
+/* Button mixins - end */
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+.edgtf-page-header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  z-index: 110;
+  box-sizing: border-box;
+  /* ==========================================================================
+    #General header layout - start
+    ========================================================================== */
+  /* ==========================================================================
+    #General header layout - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - end
+    ========================================================================== */
+}
+
+.edgtf-page-header a img {
+  display: block;
+}
+
+.edgtf-page-header p {
+  margin: 0;
+}
+
+.edgtf-page-header .edgtf-vertical-align-containers {
+  padding: 0 33px 0 40px;
+}
+
+.edgtf-paspartu-enabled .edgtf-page-header .edgtf-vertical-align-containers {
+  padding: 0;
+}
+
+.edgtf-page-header .edgtf-grid {
+  height: 100%;
+}
+
+.edgtf-page-header .edgtf-grid .edgtf-vertical-align-containers {
+  padding: 0;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.edgtf-page-header .edgtf-logo-area {
+  position: relative;
+  height: 90px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.edgtf-page-header .edgtf-logo-area .edgtf-logo-wrapper a {
+  max-height: 90px;
+}
+
+.edgtf-page-header .edgtf-menu-area {
+  position: relative;
+  height: 85px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.edgtf-boxed .edgtf-page-header .edgtf-menu-area {
+  padding: 0;
+}
+
+.edgtf-page-header .edgtf-menu-area .edgtf-logo-wrapper a {
+  max-height: 85px;
+}
+
+.edgtf-page-header .edgtf-menu-area .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.edgtf-logo-area-border-disable .edgtf-page-header .edgtf-logo-area {
+  border: none;
+}
+
+.edgtf-logo-area-in-grid-border-disable .edgtf-page-header .edgtf-logo-area .edgtf-grid .edgtf-vertical-align-containers {
+  border: none;
+}
+
+.edgtf-header-logo-area-in-grid-padding .edgtf-page-header .edgtf-logo-area .edgtf-vertical-align-containers {
+  padding: 0 25px;
+}
+
+.edgtf-menu-area-shadow-disable .edgtf-page-header .edgtf-menu-area {
+  box-shadow: none;
+}
+
+.edgtf-menu-area-shadow-disable .edgtf-page-header .edgtf-menu-area .edgtf-grid .edgtf-vertical-align-containers {
+  box-shadow: none;
+}
+
+.edgtf-menu-area-border-disable .edgtf-page-header .edgtf-menu-area {
+  border: none;
+}
+
+.edgtf-menu-area-in-grid-border-disable .edgtf-page-header .edgtf-menu-area .edgtf-grid .edgtf-vertical-align-containers {
+  border: none;
+}
+
+.edgtf-header-logo-area-in-grid-padding .edgtf-page-header .edgtf-menu-area .edgtf-vertical-align-containers {
+  padding: 0 25px;
+}
+
+/* ==========================================================================
+#Light header - begin
+========================================================================== */
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-light-logo {
+  opacity: 1;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-normal-logo,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-dark-logo {
+  opacity: 0;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget p,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget a,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget span,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget i,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget .widgettitle {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget p,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget a,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget span,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget i,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget .widgettitle {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* ==========================================================================
+#Light header - end
+========================================================================== */
+/* ==========================================================================
+#Dark header - begin
+========================================================================== */
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-dark-logo {
+  opacity: 1;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-normal-logo,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-light-logo {
+  opacity: 0;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget p,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget a,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget span,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget i,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget .widgettitle {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget a:hover {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget p,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget a,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget span,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget i,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget .widgettitle {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget a:hover {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* ==========================================================================
+#Dark header - end
+========================================================================== */
+/* ==========================================================================
+   Header end - end
+   ========================================================================== */
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+.edgtf-page-header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  z-index: 110;
+  box-sizing: border-box;
+  /* ==========================================================================
+    #General header layout - start
+    ========================================================================== */
+  /* ==========================================================================
+    #General header layout - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - end
+    ========================================================================== */
+}
+
+.edgtf-page-header a img {
+  display: block;
+}
+
+.edgtf-page-header p {
+  margin: 0;
+}
+
+.edgtf-page-header .edgtf-vertical-align-containers {
+  padding: 0 33px 0 40px;
+}
+
+.edgtf-paspartu-enabled .edgtf-page-header .edgtf-vertical-align-containers {
+  padding: 0;
+}
+
+.edgtf-page-header .edgtf-grid {
+  height: 100%;
+}
+
+.edgtf-page-header .edgtf-grid .edgtf-vertical-align-containers {
+  padding: 0;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.edgtf-page-header .edgtf-logo-area {
+  position: relative;
+  height: 90px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.edgtf-page-header .edgtf-logo-area .edgtf-logo-wrapper a {
+  max-height: 90px;
+}
+
+.edgtf-page-header .edgtf-menu-area {
+  position: relative;
+  height: 85px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.edgtf-boxed .edgtf-page-header .edgtf-menu-area {
+  padding: 0;
+}
+
+.edgtf-page-header .edgtf-menu-area .edgtf-logo-wrapper a {
+  max-height: 85px;
+}
+
+.edgtf-page-header .edgtf-menu-area .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.edgtf-logo-area-border-disable .edgtf-page-header .edgtf-logo-area {
+  border: none;
+}
+
+.edgtf-logo-area-in-grid-border-disable .edgtf-page-header .edgtf-logo-area .edgtf-grid .edgtf-vertical-align-containers {
+  border: none;
+}
+
+.edgtf-header-logo-area-in-grid-padding .edgtf-page-header .edgtf-logo-area .edgtf-vertical-align-containers {
+  padding: 0 25px;
+}
+
+.edgtf-menu-area-shadow-disable .edgtf-page-header .edgtf-menu-area {
+  box-shadow: none;
+}
+
+.edgtf-menu-area-shadow-disable .edgtf-page-header .edgtf-menu-area .edgtf-grid .edgtf-vertical-align-containers {
+  box-shadow: none;
+}
+
+.edgtf-menu-area-border-disable .edgtf-page-header .edgtf-menu-area {
+  border: none;
+}
+
+.edgtf-menu-area-in-grid-border-disable .edgtf-page-header .edgtf-menu-area .edgtf-grid .edgtf-vertical-align-containers {
+  border: none;
+}
+
+.edgtf-header-logo-area-in-grid-padding .edgtf-page-header .edgtf-menu-area .edgtf-vertical-align-containers {
+  padding: 0 25px;
+}
+
+/* ==========================================================================
+#Light header - begin
+========================================================================== */
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-light-logo {
+  opacity: 1;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-normal-logo,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-dark-logo {
+  opacity: 0;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget p,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget a,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget span,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget i,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget .widgettitle {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget p,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget a,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget span,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget i,
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget .widgettitle {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* ==========================================================================
+#Light header - end
+========================================================================== */
+/* ==========================================================================
+#Dark header - begin
+========================================================================== */
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-dark-logo {
+  opacity: 1;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-normal-logo,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-logo-wrapper .edgtf-light-logo {
+  opacity: 0;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget p,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget a,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget span,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget i,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget .widgettitle {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header) .edgtf-menu-area .edgtf-position-right-inner > .widget a:hover {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget p,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget a,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget span,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget i,
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget .widgettitle {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.fixed):not(.edgtf-sticky-header).edgtf-menu-area .edgtf-position-right-inner > .widget a:hover {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* ==========================================================================
+#Dark header - end
+========================================================================== */
+/* ==========================================================================
+   Header end - end
+   ========================================================================== */
+/* ==========================================================================
+   Header logo styles - begin
+   ========================================================================== */
+.edgtf-logo-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.edgtf-logo-wrapper a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.edgtf-logo-wrapper a img {
+  height: 100%;
+  width: auto;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.edgtf-logo-wrapper a img.edgtf-normal-logo {
+  opacity: 1;
+}
+
+.edgtf-logo-wrapper a img.edgtf-dark-logo {
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.edgtf-logo-wrapper a img.edgtf-light-logo {
+  opacity: 0;
+  -webkit-transform: translateY(-200%);
+  -moz-transform: translateY(-200%);
+  transform: translateY(-200%);
+}
+
+/* ==========================================================================
+   Header logo styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Header main menu style - begin
+   ========================================================================== */
+.edgtf-main-menu {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  width: auto;
+}
+
+.edgtf-main-menu ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.edgtf-main-menu ul li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.edgtf-main-menu ul li > a {
+  font-size: 13px;
+  line-height: 24px;
+  color: #666;
+}
+
+.edgtf-main-menu ul li > a:hover {
+  color: #ff4d2f;
+}
+
+.edgtf-main-menu ul li > a i:before {
+  margin: 0 7px 0 0;
+}
+
+.edgtf-main-menu ul li > a .menu_icon_wrapper {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.edgtf-main-menu ul li > a .edgtf-menu-featured-icon {
+  position: absolute;
+  top: calc(50% - 14px);
+  right: -11px;
+  margin: 0;
+  color: #ff4d2f;
+  font-size: 7px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.edgtf-main-menu > ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.edgtf-main-menu > ul > li {
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.edgtf-main-menu > ul > li > a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  padding: 0 14px;
+  color: #121212;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  line-height: 23px;
+  box-sizing: border-box;
+}
+
+.edgtf-main-menu > ul > li > a > span.item_outer {
+  position: relative;
+  display: table;
+  height: 100%;
+}
+
+.edgtf-main-menu > ul > li > a > span.item_outer:after {
+  position: absolute;
+  display: block;
+  content: " ";
+  left: 50%;
+  top: calc(50% + 5px);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #ff4d2f;
+  opacity: 0;
+  -webkit-transition: width 0.15s ease-in, height 0.15s ease-in, top 0.15s ease-in;
+  -moz-transition: width 0.15s ease-in, height 0.15s ease-in, top 0.15s ease-in;
+  transition: width 0.15s ease-in, height 0.15s ease-in, top 0.15s ease-in;
+  -webkit-transform: translateX(-50%) translateY(100%);
+  -moz-transform: translateX(-50%) translateY(100%);
+  transform: translateX(-50%) translateY(100%);
+}
+
+.edgtf-main-menu > ul > li > a > span.item_outer .item_text {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.edgtf-main-menu > ul > li.edgtf-active-item > a > span.item_outer:after {
+  width: 6px;
+  height: 6px;
+  opacity: 1;
+}
+
+.edgtf-main-menu > ul > li.has_sub > a .edgtf-menu-arrow {
+  display: none;
+}
+
+.edgtf-main-menu > ul > li:hover > a {
+  color: #121212;
+}
+
+.edgtf-main-menu > ul > li:hover > a > span.item_outer:after {
+  top: calc(50% + 5px);
+  width: 6px;
+  height: 6px;
+  opacity: 1;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-main-menu > ul > li > a {
+  color: #fff;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-main-menu > ul > li > a:hover {
+  color: #fff;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-main-menu > ul > li.edgtf-active-item > a {
+  color: #fff;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-main-menu > ul > li > a {
+  color: #000;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-main-menu > ul > li > a:hover {
+  color: #000;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-main-menu > ul > li > a .edgtf-menu-featured-icon {
+  color: #000;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-main-menu > ul > li.edgtf-active-item > a {
+  color: #000;
+}
+
+/* Narrow drop down styles
+   ========================================================================== */
+.edgtf-drop-down .second {
+  position: absolute;
+  display: block;
+  left: -30px;
+  top: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 0;
+  z-index: 10;
+  -webkit-transition: top 0.15s ease-out;
+  -moz-transition: top 0.15s ease-out;
+  transition: top 0.15s ease-out;
+}
+
+.edgtf-drop-down .second.edgtf-drop-down-start {
+  visibility: visible;
+  overflow: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.edgtf-drop-down .second.right {
+  right: 0;
+  left: auto;
+}
+
+.edgtf-drop-down .second .inner {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+  z-index: 997;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+}
+
+.edgtf-drop-down .second .inner ul li {
+  display: block;
+  float: none;
+  height: auto;
+}
+
+.edgtf-drop-down .second .inner ul li .widget {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.edgtf-drop-down .second .inner ul li > a {
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 6px 44px;
+}
+
+.edgtf-drop-down .second .inner ul li > a .item_outer {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+  -webkit-transition: padding 0.2s ease-in-out;
+  -moz-transition: padding 0.2s ease-in-out;
+  transition: padding 0.2s ease-in-out;
+}
+
+.edgtf-drop-down .second .inner ul li.current-menu-ancestor > a,
+.edgtf-drop-down .second .inner ul li.current-menu-item > a {
+  color: #ff4d2f;
+}
+
+.edgtf-drop-down .second .inner ul.right li > a {
+  text-align: right;
+}
+
+.edgtf-drop-down .second .inner ul.right li ul {
+  left: -100%;
+}
+
+.edgtf-drop-down li.left_position .second {
+  left: 0;
+}
+
+.edgtf-drop-down li.right_position .second {
+  left: auto;
+  right: 0;
+}
+
+.edgtf-drop-down > ul > li:hover > .second {
+  z-index: 20;
+}
+
+.edgtf-drop-down .narrow .second .inner ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #f3f3f3;
+  padding: 20px 0;
+}
+
+.edgtf-drop-down .narrow .second .inner ul li {
+  width: 240px;
+}
+
+.edgtf-drop-down .narrow .second .inner ul li ul {
+  position: absolute;
+  left: 100%;
+  top: -23px;
+  height: auto;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+
+.edgtf-drop-down .narrow .second .inner ul li:hover ul {
+  z-index: 20;
+  opacity: 1;
+}
+
+.edgtf-drop-down .narrow .second .inner ul.right li ul {
+  left: -100%;
+}
+
+/* Wide drop down styles
+   ========================================================================== */
+.edgtf-drop-down .wide.edgtf-menu-3-columns .second .inner > ul {
+  padding: 51px 0 60px;
+}
+
+.edgtf-drop-down .wide.edgtf-menu-3-columns .second .inner > ul > li {
+  width: 32%;
+  padding: 0 0 0 68px;
+}
+
+.edgtf-drop-down .wide.edgtf-menu-3-columns .second .inner > ul > li:first-child {
+  width: 36%;
+  padding: 0 68px 0 0;
+  border-right: 1px solid #dbdbdb;
+}
+
+@media only screen and (max-width: 1280px) {
+  .edgtf-drop-down .wide.edgtf-menu-3-columns .second .inner > ul > li {
+    width: 34%;
+    padding: 0 0 0 40px;
+  }
+  .edgtf-drop-down .wide.edgtf-menu-3-columns .second .inner > ul > li:first-child {
+    width: 32%;
+    padding: 0 40px 0 0;
+  }
+}
+
+.edgtf-drop-down .wide .second .inner {
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.edgtf-drop-down .wide .second .inner ul li > a {
+  padding: 6px 0;
+}
+
+.edgtf-drop-down .wide .second .inner ul li ul {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  visibility: visible;
+}
+
+.edgtf-drop-down .wide .second .inner ul li ul li:last-child a {
+  padding-bottom: 0;
+}
+
+.edgtf-drop-down .wide .second .inner > ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1100px;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1500px) {
+  .edgtf-grid-1400 .edgtf-drop-down .wide .second .inner > ul {
+    width: 1400px;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1499px) {
+  .edgtf-grid-1400 .edgtf-drop-down .wide .second .inner > ul {
+    width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .edgtf-grid-1300 .edgtf-drop-down .wide .second .inner > ul {
+    width: 1300px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .edgtf-grid-1200 .edgtf-drop-down .wide .second .inner > ul {
+    width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .edgtf-grid-1000 .edgtf-drop-down .wide .second .inner > ul {
+    width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .edgtf-grid-800 .edgtf-drop-down .wide .second .inner > ul {
+    width: 800px;
+  }
+}
+
+.edgtf-drop-down .wide .second .inner > ul > li {
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 0 26px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1280px) {
+  .edgtf-drop-down .wide .second .inner > ul > li {
+    padding: 0 20px;
+  }
+}
+
+.edgtf-drop-down .wide .second .inner > ul > li:nth-child(4n+1) {
+  clear: both;
+}
+
+.edgtf-drop-down .wide .second .inner > ul > li > a {
+  padding: 0 0 13px;
+  color: #121212;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.edgtf-drop-down .wide .second .inner > ul > li > a.no_link {
+  cursor: default;
+}
+
+.edgtf-drop-down .wide .second .inner > ul > li > a .item_outer {
+  padding: 0;
+  overflow: inherit;
+}
+
+.edgtf-drop-down .wide .second .inner > ul > li > a .item_outer:before, .edgtf-drop-down .wide .second .inner > ul > li > a .item_outer:after {
+  display: none;
+}
+
+.edgtf-drop-down .wide .second .inner > ul > li.current-menu-ancestor > a,
+.edgtf-drop-down .wide .second .inner > ul > li.current-menu-item > a {
+  color: #ff4d2f;
+}
+
+.edgtf-drop-down .wide.left_position .second .inner > ul, .edgtf-drop-down .wide.right_position .second .inner > ul {
+  width: auto;
+  white-space: nowrap;
+}
+
+.edgtf-drop-down .wide.left_position .second .inner > ul > li, .edgtf-drop-down .wide.right_position .second .inner > ul > li {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.edgtf-drop-down .wide.left_position .second .inner > ul > li:nth-child(4n+1), .edgtf-drop-down .wide.right_position .second .inner > ul > li:nth-child(4n+1) {
+  border-left: none;
+}
+
+.edgtf-drop-down .wide.left_position .second ul li, .edgtf-drop-down .wide.right_position .second ul li {
+  width: 200px;
+}
+
+/* ==========================================================================
+   Header main menu style - end
+   ========================================================================== */
+/* ==========================================================================
+    #Wide with custom widget area drop down styles - start
+    ========================================================================== */
+.edgtf-drop-down .wide.edgtf-menu-custom-widget .second > .inner > ul > li {
+  width: 100% !important;
+}
+
+/* ==========================================================================
+    #Wide with custom widget area drop down styles - end
+    ========================================================================== */
+/* ==========================================================================
+   Fixed header style - begin
+   ========================================================================== */
+.edgtf-page-header .edgtf-fixed-wrapper.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+}
+
+.admin-bar .edgtf-page-header .edgtf-fixed-wrapper.fixed {
+  margin-top: 32px;
+}
+
+.edgtf-page-header .edgtf-fixed-wrapper.fixed .edgtf-menu-area {
+  background-color: #fff;
+}
+
+.edgtf-fixed-on-scroll .edgtf-page-header .edgtf-fixed-wrapper .edgtf-menu-area {
+  -webkit-transition: height 0.2s ease;
+  -moz-transition: height 0.2s ease;
+  transition: height 0.2s ease;
+}
+
+/* ==========================================================================
+   Fixed header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Centered style - begin
+   ========================================================================== */
+.edgtf-header-centered .edgtf-page-header .edgtf-logo-area {
+  height: 96px;
+  overflow: visible;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-logo-area .edgtf-logo-wrapper {
+  padding-top: 48px;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-logo-area .edgtf-logo-wrapper a {
+  max-height: 96px;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-menu-area {
+  height: 100px;
+  z-index: 1;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-menu-area .edgtf-vertical-align-containers .edgtf-position-center-inner {
+  height: 100%;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-sticky-header .edgtf-position-left-inner {
+  height: auto;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-sticky-header .edgtf-position-right-inner {
+  height: 100%;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-left-widget-area,
+.edgtf-header-centered .edgtf-page-header .edgtf-right-widget-area {
+  position: absolute;
+  top: 50%;
+  width: 80px;
+  text-align: center;
+  z-index: 9;
+  -webkit-transform: translateY(-49%);
+  -moz-transform: translateY(-49%);
+  transform: translateY(-49%);
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-left-widget-area .edgtf-social-icon-widget-holder,
+.edgtf-header-centered .edgtf-page-header .edgtf-left-widget-area .widget,
+.edgtf-header-centered .edgtf-page-header .edgtf-left-widget-area .edgtf-search-opener,
+.edgtf-header-centered .edgtf-page-header .edgtf-left-widget-area .edgtf-shopping-cart-holder,
+.edgtf-header-centered .edgtf-page-header .edgtf-right-widget-area .edgtf-social-icon-widget-holder,
+.edgtf-header-centered .edgtf-page-header .edgtf-right-widget-area .widget,
+.edgtf-header-centered .edgtf-page-header .edgtf-right-widget-area .edgtf-search-opener,
+.edgtf-header-centered .edgtf-page-header .edgtf-right-widget-area .edgtf-shopping-cart-holder {
+  display: block;
+  text-align: center;
+  margin: 0 auto 7px;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-left-widget-area .edgtf-shopping-cart-holder .edgtf-shopping-cart-inner,
+.edgtf-header-centered .edgtf-page-header .edgtf-right-widget-area .edgtf-shopping-cart-holder .edgtf-shopping-cart-inner {
+  display: inline-block;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-left-widget-area {
+  left: 0;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-right-widget-area {
+  right: 0;
+}
+
+/* ==========================================================================
+   Header Centered style - end
+   ========================================================================== */
+/*==========================================================================
+# Fullscreen menu style - begin
+========================================================================== */
+/* Fullscreen general style - begin
+========================================================================== */
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-fullscreen-menu-opener {
+  color: #000;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-fullscreen-menu-opener:hover, .edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-fullscreen-menu-opener.edgtf-fm-opened {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-fullscreen-menu-opener {
+  color: #fff;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-fullscreen-menu-opener:hover, .edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-fullscreen-menu-opener.edgtf-fm-opened {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.edgtf-fullscreen-menu-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.edgtf-fullscreen-menu-opener .edgtf-fm-lines {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 17px;
+  height: 14px;
+}
+
+.edgtf-fullscreen-menu-opener .edgtf-fm-lines .edgtf-fm-line {
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: currentColor;
+  border-radius: 12px;
+  -webkit-transition: -webkit-transform .3s ease, top .2s ease-out, background-color .2s ease-out;
+  -moz-transition: -moz-transform .3s ease, top .2s ease-out, background-color .2s ease-out;
+  transition: transform .3s ease, top .2s ease-out, background-color .2s ease-out;
+}
+
+.edgtf-fullscreen-menu-opener .edgtf-fm-lines .edgtf-fm-line.edgtf-line-1 {
+  top: 0;
+  outline: transparent solid 1px;
+}
+
+.edgtf-fullscreen-menu-opener .edgtf-fm-lines .edgtf-fm-line.edgtf-line-2 {
+  top: calc(50% - 2px);
+  outline: transparent solid 1px;
+}
+
+.edgtf-fullscreen-menu-opener .edgtf-fm-lines .edgtf-fm-line.edgtf-line-3 {
+  top: calc(100% - 4px);
+  outline: transparent solid 1px;
+}
+
+.edgtf-fullscreen-menu-opener:hover .edgtf-fm-lines .edgtf-fm-line.edgtf-line-1, .edgtf-fullscreen-menu-opener:hover .edgtf-fm-lines .edgtf-fm-line.edgtf-line-3 {
+  top: calc(50% - 2px);
+}
+
+.edgtf-fullscreen-menu-opener:hover .edgtf-fm-lines .edgtf-fm-line.edgtf-line-2 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.edgtf-fullscreen-menu-opener.edgtf-fm-opened {
+  color: #ff4d2f;
+}
+
+.edgtf-fullscreen-menu-opener.edgtf-fm-opened .edgtf-fm-lines .edgtf-fm-line.edgtf-line-1 {
+  display: none;
+}
+
+.edgtf-fullscreen-menu-opener.edgtf-fm-opened .edgtf-fm-lines .edgtf-fm-line.edgtf-line-2 {
+  top: 50%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.edgtf-fullscreen-menu-opener.edgtf-fm-opened .edgtf-fm-lines .edgtf-fm-line.edgtf-line-3 {
+  top: 50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.edgtf-fullscreen-menu-opened .edgtf-page-header,
+.edgtf-fullscreen-menu-opened .edgtf-top-bar {
+  visibility: hidden;
+}
+
+.edgtf-fullscreen-menu-opened .edgtf-fullscreen-menu-opener {
+  visibility: visible;
+}
+
+.edgtf-fullscreen-menu-opened .edgtf-fullscreen-menu-holder-outer {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.edgtf-fullscreen-menu-holder-outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden !important;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 105;
+  /* this has to be between header z-index and content z-index */
+}
+
+.edgtf-fullscreen-menu-holder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: table;
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+.edgtf-fullscreen-menu-holder-inner {
+  display: table-cell;
+  vertical-align: top;
+  padding: 85px 0;
+}
+
+@media only screen and (max-width: 1280px) {
+  .edgtf-fullscreen-menu-holder-inner {
+    padding: 39px 0;
+  }
+}
+
+.touch .edgtf-fullscreen-menu-holder-outer {
+  display: none;
+}
+
+.touch .edgtf-fullscreen-menu-opened .edgtf-fullscreen-menu-holder-outer {
+  display: block;
+}
+
+nav.edgtf-fullscreen-menu {
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+  text-align: left;
+}
+
+nav.edgtf-fullscreen-menu ul {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav.edgtf-fullscreen-menu ul li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav.edgtf-fullscreen-menu ul li a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 11px 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+nav.edgtf-fullscreen-menu ul li a span {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav.edgtf-fullscreen-menu ul li a .edgtf-fullscreen-menu-arrow {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 10px;
+  font-size: 0.65em;
+  line-height: inherit;
+}
+
+nav.edgtf-fullscreen-menu ul li ul {
+  padding: 7px 0;
+}
+
+nav.edgtf-fullscreen-menu ul li ul.sub_menu {
+  display: none;
+}
+
+nav.edgtf-fullscreen-menu ul li ul li.current-menu-ancestor > a,
+nav.edgtf-fullscreen-menu ul li ul li.current-menu-item > a {
+  color: #ff4d2f;
+}
+
+nav.edgtf-fullscreen-menu ul li ul li ul li a {
+  font-size: 20px;
+}
+
+nav.edgtf-fullscreen-menu > ul {
+  display: block;
+}
+
+nav.edgtf-fullscreen-menu > ul > li > a {
+  font-family: "Playfair Display",sans-serif;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 900;
+}
+
+nav.edgtf-fullscreen-menu > ul > li.edgtf-active-item > a {
+  color: #ff4d2f;
+}
+
+.edgtf-fullscreen-below-menu-widget-holder {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.edgtf-fullscreen-above-menu-widget-holder {
+  text-align: center;
+}
+
+/* Fullscreen general style - end
+========================================================================== */
+/* Fullscreen fade animations general - begin
+========================================================================== */
+@-webkit-keyframes fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-moz-keyframes fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-moz-keyframes fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.edgtf-fade-push-text-right .edgtf-fullscreen-menu-holder-outer,
+.edgtf-fade-push-text-top .edgtf-fullscreen-menu-holder-outer,
+.edgtf-fade-text-scaledown .edgtf-fullscreen-menu-holder-outer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  overflow: hidden !important;
+  z-index: 105;
+  opacity: 0;
+}
+
+.edgtf-fullscreen-fade-out .edgtf-fullscreen-menu-holder-outer {
+  -webkit-animation: fade_out .25s linear both;
+  -moz-animation: fade_out .25s linear both;
+  animation: fade_out .25s linear both;
+}
+
+.edgtf-fullscreen-menu-opened.edgtf-fullscreen-fade-in .edgtf-fullscreen-menu-holder-outer {
+  -webkit-animation: fade_in .25s linear both;
+  -moz-animation: fade_in .25s linear both;
+  animation: fade_in .25s linear both;
+}
+
+/* Fullscreen fade animations general - end
+========================================================================== */
+/* Fullscreen animation push text right - begin
+========================================================================== */
+@-webkit-keyframes push_text_right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes push_text_right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@keyframes push_text_right {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes push_nav_right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes push_nav_right {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@keyframes push_nav_right {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.edgtf-fullscreen-menu-opened.edgtf-fade-push-text-right .edgtf-fullscreen-menu-holder-outer nav > ul > li > a,
+.edgtf-fullscreen-menu-opened.edgtf-fade-push-text-right .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-below-menu-widget-holder > div,
+.edgtf-fullscreen-menu-opened.edgtf-fade-push-text-right .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-above-menu-widget-holder > div {
+  -webkit-animation: push_text_right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1) both;
+  -moz-animation: push_text_right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1) both;
+  animation: push_text_right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1) both;
+}
+
+.edgtf-fade-push-text-right.edgtf-push-nav-right .edgtf-fullscreen-menu-holder-outer nav,
+.edgtf-fade-push-text-right.edgtf-push-nav-right .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-below-menu-widget-holder,
+.edgtf-fade-push-text-right.edgtf-push-nav-right .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-above-menu-widget-holder {
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+  -webkit-transform: translateX(50px);
+  -moz-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+/* Fullscreen animation push text right - end
+========================================================================== */
+/* Fullscreen animation push text top - begin
+========================================================================== */
+@-webkit-keyframes push_text_top {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes push_text_top {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@keyframes push_text_top {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.edgtf-fullscreen-menu-opened.edgtf-fade-push-text-top .edgtf-fullscreen-menu-holder-outer nav > ul > li > a,
+.edgtf-fullscreen-menu-opened.edgtf-fade-push-text-top .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-below-menu-widget-holder > div,
+.edgtf-fullscreen-menu-opened.edgtf-fade-push-text-top .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-above-menu-widget-holder > div {
+  -webkit-animation: push_text_top 0.4s ease-out both 0.5s;
+  -moz-animation: push_text_top 0.4s ease-out both 0.5s;
+  animation: push_text_top 0.4s ease-out both 0.5s;
+}
+
+.edgtf-fade-push-text-top.edgtf-push-text-top .edgtf-fullscreen-menu-holder-outer nav,
+.edgtf-fade-push-text-top.edgtf-push-text-top .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-below-menu-widget-holder,
+.edgtf-fade-push-text-top.edgtf-push-text-top .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-above-menu-widget-holder {
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  transform: translateY(-30px);
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+/* Fullscreen animation push text top - end
+========================================================================== */
+/* Fullscreen animation fade text scaledown - begin
+========================================================================== */
+.edgtf-fullscreen-menu-opened.edgtf-fade-text-scaledown .edgtf-fullscreen-menu-holder-outer nav,
+.edgtf-fullscreen-menu-opened.edgtf-fade-text-scaledown .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-below-menu-widget-holder,
+.edgtf-fullscreen-menu-opened.edgtf-fade-text-scaledown .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-above-menu-widget-holder {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.25s linear 0.1s;
+  -moz-transition: all 0.25s linear 0.1s;
+  transition: all 0.25s linear 0.1s;
+}
+
+.edgtf-fade-text-scaledown .edgtf-fullscreen-menu-holder-outer nav,
+.edgtf-fade-text-scaledown .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-below-menu-widget-holder,
+.edgtf-fade-text-scaledown .edgtf-fullscreen-menu-holder-outer .edgtf-fullscreen-above-menu-widget-holder {
+  opacity: 0;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.25s linear 0.1s;
+  -moz-transition: all 0.25s linear 0.1s;
+  transition: all 0.25s linear 0.1s;
+}
+
+/* Fullscreen animation fade text scaledown - end
+========================================================================== */
+/* ==========================================================================
+# Fullscreen menu style - end
+==========================================================================*/
+/* ==========================================================================
+   Header Minimal style - begin
+   ========================================================================== */
+.edgtf-header-minimal .edgtf-page-header .edgtf-menu-area .edgtf-position-right-inner {
+  height: auto;
+}
+
+.edgtf-header-minimal .edgtf-page-header .edgtf-position-left:before,
+.edgtf-header-minimal .edgtf-page-header .edgtf-position-right:before {
+  content: "";
+}
+
+.edgtf-header-minimal .edgtf-page-header .edgtf-sticky-header .edgtf-position-left-inner {
+  height: auto;
+}
+
+.edgtf-header-minimal .edgtf-page-header .edgtf-sticky-header .edgtf-vertical-align-containers .edgtf-position-right .edgtf-position-right-inner {
+  height: auto;
+}
+
+/* ==========================================================================
+   Header Minimal style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Standard Extended style - begin
+   ========================================================================== */
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-logo-area {
+  height: 113px;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-logo-area .edgtf-logo-wrapper a {
+  max-height: 113px;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-logo-area .edgtf-vertical-align-containers .edgtf-position-right-inner {
+  height: auto;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-logo-area .edgtf-logo-widget-area {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-logo-area .edgtf-right-from-logo-widget {
+  position: relative;
+  padding: 0 20px 0 0;
+  float: left;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-logo-area .edgtf-right-from-logo-widget:last-child {
+  padding-right: 0;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-menu-area {
+  height: 49px;
+  background-color: #000;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-menu-area .edgtf-main-menu {
+  margin-left: 0;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-menu-area .edgtf-main-menu > ul > li > a {
+  color: #fff;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-menu-area .edgtf-main-menu > ul > li:first-child > a {
+  padding-left: 0;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-menu-area .edgtf-vertical-align-containers .edgtf-position-left-inner {
+  height: 100%;
+}
+
+.edgtf-header-standard-extended .edgtf-page-header .edgtf-menu-area .edgtf-vertical-align-containers .edgtf-position-right-inner {
+  height: auto;
+}
+
+/* ==========================================================================
+   Header Standard Extended style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Standard style - begin
+   ========================================================================== */
+.edgtf-header-standard .edgtf-menu-left .edgtf-logo-wrapper {
+  padding: 0 20px 0 0;
+}
+
+.edgtf-header-standard .edgtf-menu-area.edgtf-menu-left .edgtf-main-menu {
+  width: auto;
+  padding: 0 0 0 20px;
+}
+
+.edgtf-header-standard .edgtf-menu-area.edgtf-menu-left .edgtf-vertical-align-containers .edgtf-position-left-inner {
+  height: 100%;
+}
+
+.edgtf-header-standard .edgtf-menu-area.edgtf-menu-center .edgtf-vertical-align-containers .edgtf-position-center-inner {
+  height: 100%;
+}
+
+.edgtf-header-standard .edgtf-menu-area.edgtf-menu-right .edgtf-main-menu {
+  width: auto;
+}
+
+.edgtf-header-standard .edgtf-menu-area.edgtf-menu-right .edgtf-vertical-align-containers .edgtf-position-right-inner {
+  height: 100%;
+}
+
+/* ==========================================================================
+   Header Standard style - end
+   ========================================================================== */
+/* ==========================================================================
+   Mobile header style - begin
+   ========================================================================== */
+.edgtf-mobile-header {
+  position: relative;
+  display: none;
+  z-index: 110;
+  /* #General mobile header styles
+    ========================================================================== */
+  /* #End of general mobile header styles
+   ========================================================================== */
+  /* #Mobile logo styles
+    ========================================================================== */
+  /* #End of mobile logo styles
+    ========================================================================== */
+  /* #Mobile menu opener styles
+    ========================================================================== */
+  /* #End of mobile menu opener styles
+    ========================================================================== */
+  /* #Mobile menu navigation styles
+    ========================================================================== */
+  /* #End of mobile menu navigation styles
+	========================================================================== */
+}
+
+.edgtf-mobile-header .edgtf-mobile-header-inner {
+  position: relative;
+  height: 70px;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  box-sizing: border-box;
+}
+
+.edgtf-mobile-header .edgtf-mobile-header-inner .edgtf-mobile-header-holder {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.edgtf-mobile-header .edgtf-grid {
+  height: 100%;
+}
+
+.edgtf-mobile-header .edgtf-vertical-align-containers {
+  padding: 0;
+}
+
+.edgtf-mobile-header .edgtf-mobile-logo-wrapper a {
+  display: block;
+}
+
+.edgtf-mobile-header .edgtf-mobile-logo-wrapper img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.edgtf-mobile-header .edgtf-mobile-menu-opener {
+  position: relative;
+  height: 100%;
+  float: left;
+  z-index: 2;
+}
+
+.edgtf-mobile-header .edgtf-mobile-menu-opener a {
+  display: table;
+  height: 100%;
+  padding-right: 10px;
+}
+
+.edgtf-mobile-header .edgtf-mobile-menu-opener a > * {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1em;
+}
+
+.edgtf-mobile-header .edgtf-mobile-menu-opener a .edgtf-fm-lines {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 17px;
+  height: 14px;
+}
+
+.edgtf-mobile-header .edgtf-mobile-menu-opener a .edgtf-fm-lines .edgtf-fm-line {
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: currentColor;
+  border-radius: 12px;
+  -webkit-transition: -webkit-transform .3s ease, top .2s ease-out, background-color .2s ease-out;
+  -moz-transition: -moz-transform .3s ease, top .2s ease-out, background-color .2s ease-out;
+  transition: transform .3s ease, top .2s ease-out, background-color .2s ease-out;
+}
+
+.edgtf-mobile-header .edgtf-mobile-menu-opener a .edgtf-fm-lines .edgtf-fm-line.edgtf-line-1 {
+  top: 0;
+  outline: transparent solid 1px;
+}
+
+.edgtf-mobile-header .edgtf-mobile-menu-opener a .edgtf-fm-lines .edgtf-fm-line.edgtf-line-2 {
+  top: calc(50% - 2px);
+  outline: transparent solid 1px;
+}
+
+.edgtf-mobile-header .edgtf-mobile-menu-opener a .edgtf-fm-lines .edgtf-fm-line.edgtf-line-3 {
+  top: calc(100% - 4px);
+  outline: transparent solid 1px;
+}
+
+.edgtf-mobile-header .edgtf-mobile-menu-opener a .edgtf-mobile-menu-text {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  padding-left: 5px;
+}
+
+.edgtf-mobile-header .edgtf-mobile-menu-opener.edgtf-mobile-menu-opened a {
+  color: #ff4d2f;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav {
+  display: none;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav ul li a, .edgtf-mobile-header .edgtf-mobile-nav ul li h6 {
+  position: relative;
+  display: block;
+  padding: 9px 0;
+  margin: 0;
+  color: #808080;
+  border-bottom: 1px solid #dbdbdb;
+  cursor: pointer;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav ul li a:hover, .edgtf-mobile-header .edgtf-mobile-nav ul li h6:hover {
+  color: #ff4d2f;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav ul ul {
+  display: none;
+  margin-left: 15px;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav ul ul li.current-menu-ancestor > a,
+.edgtf-mobile-header .edgtf-mobile-nav ul ul li.current-menu-item > a {
+  color: #ff4d2f;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav ul ul li a, .edgtf-mobile-header .edgtf-mobile-nav ul ul li h6 {
+  font-size: 11px;
+  line-height: 24px;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav .edgtf-grid > ul > li > a,
+.edgtf-mobile-header .edgtf-mobile-nav .edgtf-grid > ul > li > h6 {
+  padding-left: 4px;
+  font-size: 13px;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav .edgtf-grid > ul > li.edgtf-active-item > a {
+  color: #ff4d2f;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav .edgtf-grid > ul > li.edgtf-active-item > .mobile_arrow > .edgtf-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav .mobile_arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  padding-right: 12px;
+  font-size: 15px;
+  line-height: 43px;
+  text-align: right;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav .mobile_arrow:hover {
+  cursor: pointer;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav .mobile_arrow .edgtf-sub-arrow {
+  -webkit-transition: transform 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav .mobile_arrow .fa-angle-down {
+  display: none;
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav li.edgtf-opened > .mobile_arrow > .edgtf-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.edgtf-mobile-header .edgtf-mobile-nav > ul > li:last-child > a,
+.edgtf-mobile-header .edgtf-mobile-nav > .edgtf-grid > ul > li:last-child > a {
+  border-bottom: none;
+}
+
+/* ==========================================================================
+   Mobile header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky Mobile header style - begin
+   ========================================================================== */
+.edgtf-sticky-up-mobile-header .edgtf-animate-mobile-header .edgtf-mobile-header-inner {
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  -moz-transition: -moz-transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  transition: transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.edgtf-sticky-up-mobile-header .mobile-header-appear .edgtf-mobile-header-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.edgtf-sticky-up-mobile-header.admin-bar .mobile-header-appear .edgtf-mobile-header-inner {
+  -webkit-transform: translateY(32px);
+  -moz-transform: translateY(32px);
+  transform: translateY(32px);
+}
+
+/* ==========================================================================
+   Sticky Mobile header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky header style - begin
+   ========================================================================== */
+.edgtf-sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  z-index: 100;
+  -webkit-transition: -webkit-transform 0.6s ease;
+  -moz-transition: -moz-transform 0.6s ease;
+  transition: transform .6s ease;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.edgtf-sticky-header .edgtf-grid {
+  height: 100% !important;
+}
+
+.edgtf-sticky-header.header-appear {
+  transform: translateY(0%);
+}
+
+.edgtf-sticky-header .edgtf-sticky-holder {
+  position: relative;
+  height: 100%;
+  z-index: 2;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  box-sizing: border-box;
+}
+
+.edgtf-sticky-header .edgtf-sticky-holder .edgtf-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.edgtf-sticky-header .edgtf-sticky-holder .edgtf-logo-wrapper a {
+  max-height: 70px;
+}
+
+.admin-bar .edgtf-sticky-header.header-appear {
+  top: 32px;
+}
+
+.edgtf-sticky-header .edgtf-position-center-inner,
+.edgtf-sticky-header .edgtf-position-right-inner {
+  height: 100%;
+}
+
+.edgtf-sticky-header .edgtf-sticky-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.edgtf-sticky-header .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Sticky header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Top header style - begin
+   ========================================================================== */
+.edgtf-top-bar {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 50px;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1;
+  background-color: #121212;
+  z-index: 111;
+}
+
+.edgtf-top-bar > .edgtf-vertical-align-containers {
+  padding: 0 21px 0 40px;
+}
+
+.edgtf-top-bar .edgtf-grid {
+  height: 100%;
+}
+
+.edgtf-top-bar .edgtf-grid .edgtf-vertical-align-containers {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.edgtf-top-bar-in-grid-padding .edgtf-top-bar .edgtf-grid .edgtf-vertical-align-containers {
+  padding: 0 21px 0 40px;
+}
+
+.edgtf-top-bar .widget {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Top header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/header-map.css.map */

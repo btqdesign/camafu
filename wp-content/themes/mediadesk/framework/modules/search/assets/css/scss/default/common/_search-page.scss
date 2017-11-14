@@ -1,0 +1,199 @@
+/* ==========================================================================
+# Search template style - begin
+========================================================================== */
+
+body.search {
+	
+	.edgtf-title-holder,
+	.edgtf-content,
+	.edgtf-container {
+		background-color: #f3f3f3;
+	}
+}
+
+.edgtf-search-page-holder {
+    @include edgtfRelativeHolderLayout();
+    margin: 0 0 80px;
+    
+    .edgtf-search-page-form {
+        @include edgtfRelativeHolderLayout();
+	    padding: 0 0 34px;
+	    border-bottom: 1px solid $default-border-color;
+        
+        .edgtf-search-title {
+            margin: 0 0 50px;
+        }
+        
+        .edgtf-search-label {
+            display: block;
+	        margin: 20px 0 0;
+        }
+        
+        .edgtf-form-holder {
+            @include edgtfRelativeHolderLayout();
+            max-width: 706px;
+            clear: both;
+            
+            .edgtf-search-field {
+                position: relative;
+                width: calc(100% - 174px);
+                height: 56px;
+                line-height: 56px;
+                margin: 0;
+                padding: 0 20px;
+                font-family: inherit;
+                font-size: inherit;
+                color: inherit;
+                background-color: #fff;
+                border: none;
+                outline: 0;
+                vertical-align: middle;
+                -webkit-appearance: none;
+                box-sizing: border-box;
+                
+                @include edgtfPlaceholder {
+                    color: inherit;
+                }
+            }
+            
+            .edgtf-search-submit {
+                position: absolute;
+                top: 0;
+                right: 0;
+                display: inline-block;
+                width: 174px;
+                height: 56px;
+                line-height: 56px;
+                padding: 0;
+                font-size: 11px;
+	            font-weight: 600;
+	            letter-spacing: .2em;
+	            text-transform: uppercase;
+	            text-align: center;
+                color: #fff;
+                background-color: $default-heading-color;
+                border: 0;
+                outline: 0;
+                cursor: pointer;
+                vertical-align: middle;
+                @include edgtfTransition(color .2s ease-in-out, background-color .2s ease-in-out);
+                
+                &:hover {
+                    color: #fff;
+                    background-color: $first-main-color;
+                }
+                
+                > span {
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: top;
+                    line-height: inherit;
+                    
+                    * {
+                        display: block;
+                        line-height: inherit;
+                    }
+                }
+            }
+        }
+    }
+    
+    article {
+        @include edgtfRelativeHolderLayout();
+        padding: 60px 0;
+        margin: 0;
+        border-bottom: 1px solid $default-border-color;
+        
+        &.sticky {
+            
+            .edgtf-post-title a {
+                color: $first-main-color;
+            }
+        }
+        
+        .edgtf-post-content {
+            @include edgtfRelativeHolderLayout();
+        }
+        
+        .edgtf-post-image {
+            display: block;
+            float: left;
+            width: 196px;
+            
+            a, img {
+                display: block;
+            }
+        }
+        
+        .edgtf-post-title-area {
+            min-height: 140px;
+            padding: 0 0 0 220px;
+            
+            &.edgtf-no-thumbnail{
+                padding: 0;
+                min-height: inherit;
+            }
+            
+            .edgtf-post-title-area-inner {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                box-sizing: border-box;
+            }
+	
+	        .edgtf-post-title {
+		        margin: 0;
+	        }
+	
+	        .edgtf-post-info {
+		        display: block;
+		        margin: 5px 0 0;
+		        line-height: 1;
+		
+		        > div {
+			        position: relative;
+			        display: inline-block;
+			        vertical-align: top;
+			        padding-right: 10px;
+			        font-size: 12px;
+			        line-height: 20px;
+			        color: $default-text-color;
+			
+			        &:after {
+				        content: '-';
+				        position: absolute;
+				        top: 0;
+				        right: 2px;
+			        }
+			
+			        &:last-child {
+				        padding-right: 0;
+				
+				        &:after {
+					        content: '';
+				        }
+			        }
+			
+			        a {
+				        color: inherit;
+				
+				        &:hover {
+					        color: $default-heading-color;
+				        }
+			        }
+		        }
+	        }
+	
+	        .edgtf-post-excerpt {
+		        margin: 9px 0 0;
+	        }
+        }
+    }
+    
+    .edgtf-blog-pagination {
+        margin: 60px 0 0;
+    }
+}
+/* ==========================================================================
+# Search template style - end
+========================================================================== */

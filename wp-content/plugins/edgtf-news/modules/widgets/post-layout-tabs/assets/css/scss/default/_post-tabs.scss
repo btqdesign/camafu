@@ -1,0 +1,121 @@
+/* ==========================================================================
+   Post Tabs start styles
+   ========================================================================== */
+
+.edgtf-plw-tabs {
+	@include edgtfRelativeHolderLayout();
+
+	.edgtf-plw-tabs-inner {
+
+		.edgtf-drop-down & {
+
+			.edgtf-plw-tabs-tabs-holder {
+
+				.edgtf-plw-tabs-tab {
+					margin: 0;
+
+					a {
+						position: relative;
+						display: block;
+						height: auto;
+						color: $default-heading-color;
+						font-family: inherit;
+						padding: 6px 0;
+						float: none;
+						@include edgtfTransition(color .15s ease-in-out);
+					}
+				}
+
+			}
+		}
+	}
+
+	.edgtf-plw-tabs-tab:first-child a {
+		padding-top: 0;
+	}
+
+	.edgtf-plw-tabs-inner{
+		@include edgtfColumnsHolder();
+	}
+
+	.edgtf-plw-tabs-tabs-holder{
+		width: 25%;
+		@include edgtfColumnsItem();
+
+		.edgtf-plw-tabs-tab a {
+
+			.item_text {
+				position: relative;
+				display: block;
+				padding: 0 30px 0 0;
+				margin: 0;
+				overflow: hidden;
+				@include edgtfTransition(padding .2s ease-in-out);
+
+				&:after {
+					position: absolute;
+					top: 50%;
+					left: -8px;
+					display: inline-block;
+					vertical-align: middle;
+					font-family: "Ionicons";
+					content: '\f363';
+					speak: none;
+					color: $first-main-color;
+					font-size: 19px;
+					text-transform: none;
+					text-rendering: auto;
+					line-height: 14px;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					@include edgtfTransform(translateY(-50%));
+					@include edgtfTransition(left .2s ease-in-out);
+				}
+			}
+
+			&:hover {
+
+				.item_text {
+					padding: 0 15px;
+
+					&:after {
+						left: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.edgtf-plw-tabs-content-holder{
+		position: relative;
+		float: right;
+		width: 75%;
+
+		.edgtf-plw-tabs-content{
+			opacity: 0;
+			@include edgtfColumnsItem();
+			position: absolute;
+			width: 100%;
+			max-width: 100%;
+			z-index: 1;
+			@include edgtfTransition(opacity 0.23s);
+
+			&.edgtf-plw-tabs-active-item {
+				opacity: 1;
+				z-index: 2;
+			}
+		}
+	}
+
+	.edgtf-pt-six-item {
+		margin: 0 0 5px;
+	}
+
+	.edgtf-pt-six-item .edgtf-pt-six-info-section > div{
+		color:#a8a7a7;
+	}
+}
+
+/* ==========================================================================
+   Post Tabs end styles
+   ========================================================================== */

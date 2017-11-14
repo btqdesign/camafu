@@ -1,0 +1,123 @@
+.edgtf-post-single-image-full {
+	
+	.edgtf-news-post-top-holder-info {
+		background-color: #fff;
+		padding-top: 97px;
+		padding-bottom: 86px;
+		
+		.edgtf-post-title {
+			max-width: 45%;
+			
+			@include ipad-landscape {
+				max-width: 65%;
+			}
+			
+			@include ipad-portrait {
+				max-width: 80%;
+			}
+		}
+	}
+	
+	.edgtf-blog-holder {
+		
+		article {
+			border-bottom: 0;
+			
+			&:after {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 16.8%;
+				width: calc(100% - 33.6%);
+				height: 1px;
+				background-color: $default-border-color;
+				
+				@include laptop-landscape-large {
+					left: 6.4%;
+					width: calc(100% - 12.8%);
+				}
+				
+				@include laptop-landscape-medium {
+					left: 9.4%;
+					width: calc(100% - 18.8%);
+				}
+				
+				@include ipad-landscape {
+					left: 4.4%;
+					width: calc(100% - 8.8%);
+				}
+				
+				@include phone-landscape {
+					left: 0;
+					width: 100%;
+				}
+			}
+			
+			.edgtf-author-description-wrapper {
+				@include edgtfRelativeHolderLayout();
+				padding: 0 16.8%;
+				box-sizing: border-box;
+				
+				@include laptop-landscape-large {
+					padding: 0 6.4%;
+				}
+				
+				@include laptop-landscape-medium {
+					padding: 0 9.4%;
+				}
+				
+				@include ipad-landscape {
+					padding: 0 4.4%;
+				}
+				
+				@include phone-landscape {
+					padding: 0;
+				}
+			}
+			
+			.edgtf-post-info-bottom {
+				display: block;
+				width: 100%;
+				padding: 0 16.8%;
+				box-sizing: border-box;
+				
+				@include laptop-landscape-large {
+					padding: 0 6.4%;
+				}
+				
+				@include laptop-landscape-medium {
+					padding: 0 9.4%;
+				}
+				
+				@include ipad-landscape {
+					padding: 0 4.4%;
+				}
+				
+				@include phone-landscape {
+					padding: 0;
+				}
+			}
+		}
+		
+		.edgtf-blog-single-navigation {
+			padding: 0 16.8%;
+			box-sizing: border-box;
+			
+			@include laptop-landscape-large {
+				padding: 0 6.4%;
+			}
+			
+			@include laptop-landscape-medium {
+				padding: 0 9.4%;
+			}
+			
+			@include ipad-landscape {
+				padding: 0 4.4%;
+			}
+			
+			@include phone-landscape {
+				padding: 0;
+			}
+		}
+	}
+}

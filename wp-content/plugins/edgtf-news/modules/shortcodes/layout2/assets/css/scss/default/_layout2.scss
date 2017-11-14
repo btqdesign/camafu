@@ -1,0 +1,73 @@
+/* ==========================================================================
+   Layout 2 style - begin
+   ========================================================================== */
+	
+.edgtf-news-holder {
+	
+	&.edgtf-layout2 {
+		
+		&.edgtf-news-columns-3 {
+			
+			.edgtf-news-item {
+				
+				@include ipad-portrait {
+					width: 50%;
+				}
+				
+				@include phone-landscape {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+.edgtf-layout2-item {
+	opacity: 0;
+	
+	.edgtf-ni-inner {
+		@include edgtfRelativeHolderLayout();
+		margin-bottom: 120px;
+	}
+	
+	.edgtf-ni-image-holder {
+		@include edgtfRelativeHolderLayout();
+	}
+	
+	.edgtf-ni-content {
+		position: absolute;
+		top: calc(100% - 30px);
+		left: 20px;
+		width: calc(100% - 40px);
+		padding: 30px 35px 5%;
+		background-color: #fff;
+		box-sizing: border-box;
+
+		.edgtf-news-skin-light & {
+			background-color: $default-heading-color;
+		}
+		
+		@include laptop-landscape-medium {
+			padding: 24px 30px 25px;
+		}
+
+		@include ipad-landscape {
+			top: calc(100% - 20px);
+			left: 10px;
+			width: calc(100% - 20px);
+			padding: 25px 22px 20px;
+		}
+	}
+	
+	.edgtf-ni-info-top {
+		margin-bottom: 12px;
+	}
+	
+	.edgtf-ni-info-bottom {
+		position: relative;
+		margin-top: 12%;
+	}
+}
+/* ==========================================================================
+   Layout 2 shortcode style - end
+   ========================================================================== */

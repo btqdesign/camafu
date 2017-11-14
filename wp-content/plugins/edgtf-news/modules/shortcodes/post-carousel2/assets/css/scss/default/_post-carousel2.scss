@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Post Carousel 2 layout style - begin
+   ========================================================================== */
+
+.edgtf-post-carousel2 {
+	
+	&.edgtf-news-skin-light {
+		
+		.edgtf-owl-slider {
+			
+			.owl-dots {
+				
+				.owl-dot {
+					
+					span {
+						background-color: rgba($default-heading-color, .6);
+					}
+					
+					&:hover,
+					&.active {
+						
+						span {
+							background-color: $default-heading-color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Post Carousel 2 layout style  - end
+   ========================================================================== */

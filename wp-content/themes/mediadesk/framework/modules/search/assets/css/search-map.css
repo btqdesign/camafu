@@ -1,0 +1,486 @@
+/* ==========================================================================
+   Search styles - begin
+   ========================================================================== */
+/* Button mixins - start */
+/* Button mixins - end */
+/* ==========================================================================
+# Search opener - begin
+========================================================================== */
+.edgtf-search-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0 10px;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-search-opener {
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-search-opener:hover .edgtf-search-opener-wrapper {
+  color: #fff;
+  background-color: #ff4d2f;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-search-opener .edgtf-search-opener-wrapper {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  line-height: 40px;
+  text-align: center;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 100%;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+}
+
+.edgtf-header-centered .edgtf-page-header .edgtf-search-opener .edgtf-search-opener-wrapper > * {
+  padding: 0;
+}
+
+.edgtf-search-opener .edgtf-search-opener-wrapper {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-search-opener .edgtf-search-opener-wrapper > * {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding: 3px;
+  line-height: inherit;
+}
+
+.edgtf-search-opener .edgtf-search-opener-wrapper > *:before {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-search-opener,
+.edgtf-light-header .edgtf-top-bar .edgtf-search-opener {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-search-opener:hover,
+.edgtf-light-header .edgtf-top-bar .edgtf-search-opener:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-search-opener,
+.edgtf-dark-header .edgtf-top-bar .edgtf-search-opener {
+  color: #000 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-search-opener:hover,
+.edgtf-dark-header .edgtf-top-bar .edgtf-search-opener:hover {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* ==========================================================================
+# Search opener - end
+========================================================================== */
+/* ==========================================================================
+# Search template style - begin
+========================================================================== */
+body.search .edgtf-title-holder,
+body.search .edgtf-content,
+body.search .edgtf-container {
+  background-color: #f3f3f3;
+}
+
+.edgtf-search-page-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 0 80px;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0 0 34px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-search-title {
+  margin: 0 0 50px;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-search-label {
+  display: block;
+  margin: 20px 0 0;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-form-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  max-width: 706px;
+  clear: both;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-form-holder .edgtf-search-field {
+  position: relative;
+  width: calc(100% - 174px);
+  height: 56px;
+  line-height: 56px;
+  margin: 0;
+  padding: 0 20px;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: #fff;
+  border: none;
+  outline: 0;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-form-holder .edgtf-search-field::-webkit-input-placeholder {
+  color: inherit;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-form-holder .edgtf-search-field:-moz-placeholder {
+  color: inherit;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-form-holder .edgtf-search-field::-moz-placeholder {
+  color: inherit;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-form-holder .edgtf-search-field:-ms-input-placeholder {
+  color: inherit;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-form-holder .edgtf-search-submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 174px;
+  height: 56px;
+  line-height: 56px;
+  padding: 0;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #121212;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-form-holder .edgtf-search-submit:hover {
+  color: #fff;
+  background-color: #ff4d2f;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-form-holder .edgtf-search-submit > span {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  line-height: inherit;
+}
+
+.edgtf-search-page-holder .edgtf-search-page-form .edgtf-form-holder .edgtf-search-submit > span * {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-search-page-holder article {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 60px 0;
+  margin: 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.edgtf-search-page-holder article.sticky .edgtf-post-title a {
+  color: #ff4d2f;
+}
+
+.edgtf-search-page-holder article .edgtf-post-content {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.edgtf-search-page-holder article .edgtf-post-image {
+  display: block;
+  float: left;
+  width: 196px;
+}
+
+.edgtf-search-page-holder article .edgtf-post-image a, .edgtf-search-page-holder article .edgtf-post-image img {
+  display: block;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area {
+  min-height: 140px;
+  padding: 0 0 0 220px;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area.edgtf-no-thumbnail {
+  padding: 0;
+  min-height: inherit;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area .edgtf-post-title-area-inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area .edgtf-post-title {
+  margin: 0;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area .edgtf-post-info {
+  display: block;
+  margin: 5px 0 0;
+  line-height: 1;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area .edgtf-post-info > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #808080;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area .edgtf-post-info > div:after {
+  content: '-';
+  position: absolute;
+  top: 0;
+  right: 2px;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area .edgtf-post-info > div:last-child {
+  padding-right: 0;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area .edgtf-post-info > div:last-child:after {
+  content: '';
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area .edgtf-post-info > div a {
+  color: inherit;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area .edgtf-post-info > div a:hover {
+  color: #121212;
+}
+
+.edgtf-search-page-holder article .edgtf-post-title-area .edgtf-post-excerpt {
+  margin: 9px 0 0;
+}
+
+.edgtf-search-page-holder .edgtf-blog-pagination {
+  margin: 60px 0 0;
+}
+
+/* ==========================================================================
+# Search template style - end
+========================================================================== */
+/* ==========================================================================
+# Fullscreen search - start
+========================================================================== */
+/* Fullscreen search general style - start
+========================================================================== */
+.edgtf-fullscreen-search-holder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 105;
+  opacity: 0;
+}
+
+.edgtf-fullscreen-search-holder .edgtf-fullscreen-search-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.edgtf-fullscreen-search-holder .edgtf-fullscreen-search-cell {
+  position: relative;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.edgtf-fullscreen-search-holder .edgtf-form-holder-inner {
+  position: relative;
+  left: 17%;
+  width: 70%;
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-fullscreen-search-holder .edgtf-form-holder-inner {
+    left: 10%;
+  }
+}
+
+.edgtf-fullscreen-search-holder .edgtf-field-holder {
+  display: block;
+  position: relative;
+  text-align: left;
+}
+
+.edgtf-fullscreen-search-holder .edgtf-search-field {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0 0 6px;
+  background: transparent;
+  outline: none;
+  color: #121212;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 2em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .edgtf-fullscreen-search-holder .edgtf-search-field {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-fullscreen-search-holder .edgtf-search-field {
+    font-size: 30px;
+  }
+}
+
+.edgtf-fullscreen-search-holder .edgtf-field-description {
+  display: block;
+  padding: 0 0 44px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 680px) {
+  .edgtf-fullscreen-search-holder .edgtf-field-description {
+    font-size: 12px;
+  }
+}
+
+/* Fullscreen search general style - end
+========================================================================== */
+/* Fullscreen search fade style - start
+========================================================================== */
+.edgtf-search-fade .edgtf-fullscreen-search-holder {
+  visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  opacity: 0;
+  z-index: 112;
+  box-sizing: border-box;
+}
+
+.edgtf-search-fade .edgtf-fullscreen-search-holder .edgtf-fullscreen-search-table {
+  background-color: rgba(255, 255, 255, 0.98);
+}
+
+.edgtf-search-fade-out.edgtf-search-fade .edgtf-fullscreen-search-holder {
+  -webkit-animation: search_fade_out 0.2s ease-out both;
+  -moz-animation: search_fade_out 0.2s ease-out both;
+  animation: search_fade_out 0.2s ease-out both;
+}
+
+.edgtf-search-fade-in.edgtf-search-fade .edgtf-fullscreen-search-holder.edgtf-animate {
+  -webkit-animation: search_fade_in 0.3s ease both;
+  -moz-animation: search_fade_in 0.3s ease both;
+  animation: search_fade_in 0.3s ease both;
+}
+
+.edgtf-search-fade .edgtf-fullscreen-search-holder.edgtf-animate .edgtf-fullscreen-search-close {
+  opacity: 1;
+  visibility: visible;
+}
+
+@-webkit-keyframes search_fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes search_fade_out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes search_fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes search_fade_in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* Fullscreen search fade style - end
+========================================================================== */
+/* ==========================================================================
+# Fullscreen search - end
+========================================================================== */
+/* ==========================================================================
+   Search styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../css/search-map.css.map */

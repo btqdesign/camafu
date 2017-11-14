@@ -1,0 +1,94 @@
+/* ==========================================================================
+   Social Share shortcode style - begin
+   ========================================================================== */
+
+.edgtf-social-share-holder {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    
+    .edgtf-social-share-title {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0;
+	    color: $default-text-color;
+    }
+
+    ul {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    
+        li {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            padding: 0;
+            margin-right: 10px;
+        
+            &:last-child {
+                margin-right: 0;
+            }
+	        
+	        * {
+		        display: block;
+		        line-height: inherit;
+	        }
+        }
+    }
+    
+    &.edgtf-list {
+    
+        ul {
+        
+            li {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    
+    &.edgtf-dropdown {
+    
+        &:hover {
+    
+            .edgtf-social-share-dropdown-opener {
+                opacity: 0;
+            }
+    
+            .edgtf-social-share-dropdown {
+                opacity: 1;
+                visibility: visible;
+                z-index: 9999;
+            }
+        }
+    
+        .edgtf-social-share-dropdown-opener {
+            display: block;
+            text-transform: uppercase;
+            opacity: 1;
+            @include edgtfTransition(opacity .3s ease-in-out);
+        }
+    
+        .edgtf-social-share-dropdown {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+            z-index: -1;
+            @include edgtfTransition(opacity .3s ease-in-out, visibility .3s ease-in-out);
+            
+            ul {
+                padding: 0 !important;
+	            white-space: nowrap;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Social Share shortcode style - end
+   ========================================================================== */

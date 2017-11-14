@@ -1,0 +1,171 @@
+/* Related posts styles - begin
+	====================================================================== */
+
+.edgtf-related-posts-holder {
+    @include edgtfRelativeHolderLayout();
+    margin: 50px 0 34px;
+    padding: 0 0 36px;
+    border-bottom: 1px solid $default-border-color;
+
+    .edgtf-related-posts-title {
+        margin: 0 0 89px;
+        text-align: center;
+        
+        > * {
+            margin: 0;
+        }
+    }
+
+    .edgtf-related-posts-inner {
+        margin: 0 -19px;
+    }
+
+    .edgtf-related-post {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 33.33333333333333%;
+        margin: 0 0 38px;
+        padding: 0 19px;
+        box-sizing: border-box;
+    
+        @include ipad-portrait {
+            width: 50%;
+        }
+    
+        @include phone-landscape {
+            width: 100%;
+        }
+    
+        .edgtf-related-post-image {
+            @include edgtfRelativeHolderLayout();
+        
+            a {
+                position: relative;
+                display: block;
+                
+                &:hover {
+                    
+                    &:after {
+                        opacity: 1;
+                    }
+                }
+                
+                &:after {
+                    @include edgtfAbsoluteHolderLayout();
+                    content: '';
+                    background-color: rgba($header-dark-color, .2);
+                    opacity: 0;
+                    @include edgtfTransition(opacity .2s ease-out);
+                }
+            }
+            
+            img {
+                display: block;
+            }
+        }
+    
+        .edgtf-post-title {
+            margin: 8px 0 0;
+        }
+    
+        .edgtf-post-info {
+            display: block;
+            line-height: 1;
+        
+            > div {
+                position: relative;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 16px;
+                font-size: 12px;
+                line-height: 20px;
+                color: $default-text-color;
+            
+                &:last-child {
+                    margin-right: 0;
+                }
+            
+                &.edgtf-post-info-category {
+                    font-size: 11px;
+                    letter-spacing: .1em;
+                    text-transform: uppercase;
+                
+                    a {
+                        color: inherit;
+                    
+                        &:hover {
+                            color: $default-heading-color;
+                        }
+                    }
+                }
+            
+                &.edgtf-post-info-date {
+                
+                    a {
+                        color: inherit;
+                    
+                        &:hover {
+                            color: $default-heading-color;
+                        }
+                    }
+                }
+            
+                &.edgtf-blog-like {
+                
+                    i {
+                        margin-right: 6px;
+                    }
+                
+                    span {
+                        color: $default-text-color;
+                    }
+                }
+            
+                &.edgtf-post-info-comments-holder {
+                
+                    span {
+                        color: $default-text-color;
+                    }
+                }
+            
+                i {
+                    margin-right: 3px;
+                    font-size: 13px;
+                    line-height: inherit;
+                }
+            }
+        }
+    
+        .edgtf-post-info-top {
+            margin-top: 32px;
+            
+            > div {
+                margin-right: 0;
+                padding-right: 10px;
+            
+                &:after {
+                    content: '/';
+                    position: absolute;
+                    top: 0;
+                    right: 2px;
+                }
+            
+                &:last-child {
+                    padding-right: 0;
+                
+                    &:after {
+                        content: '';
+                    }
+                }
+            }
+        }
+    
+        .edgtf-post-info-bottom {
+            margin-top: 17px;
+        }
+    }
+}
+
+/* Related posts styles - end
+	====================================================================== */

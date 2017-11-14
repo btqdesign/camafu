@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Header Centered style - begin
+   ========================================================================== */
+
+.edgtf-header-centered {
+	
+    .edgtf-page-header {
+	    
+        .edgtf-logo-area {
+            height: 96px;
+	        overflow: visible;
+	        z-index: 2; //to be above menu area in order to cover shadow
+	        box-sizing: border-box;
+	        
+            .edgtf-logo-wrapper {
+	            padding-top: 48px;
+	            
+	            a {
+		            max-height: 96px;
+	            }
+            }
+        }
+
+        .edgtf-menu-area {
+	        height: 100px;
+	        z-index: 1;
+
+            .edgtf-vertical-align-containers {
+	            
+                .edgtf-position-center-inner {
+                    height: 100%;
+                }
+            }
+        }
+
+        .edgtf-sticky-header {
+	        
+            .edgtf-position-left-inner {
+                height: auto;
+            }
+
+            .edgtf-position-right-inner {
+                height: 100%;
+            }
+        }
+
+		.edgtf-left-widget-area,
+		.edgtf-right-widget-area {
+			position: absolute;
+			top: 50%;
+			width: 80px;
+			text-align: center;
+			z-index: 9;
+			@include edgtfTransform(translateY(-49%));
+
+			.edgtf-social-icon-widget-holder,
+			.widget,
+			.edgtf-search-opener,
+			.edgtf-shopping-cart-holder {
+				display: block;
+				text-align: center;
+				margin: 0 auto 7px;
+			}
+
+			.edgtf-shopping-cart-holder {
+
+				.edgtf-shopping-cart-inner {
+					display: inline-block;
+				}
+			}
+		}
+
+		.edgtf-left-widget-area {
+			left: 0;
+		}
+
+		.edgtf-right-widget-area {
+			right: 0;
+		}
+    }
+}
+/* ==========================================================================
+   Header Centered style - end
+   ========================================================================== */

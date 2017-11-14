@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Section Title shortcode styles - begin
+   ========================================================================== */
+
+.edgtf-section-title-holder {
+    @include edgtfRelativeHolderLayout();
+	margin: 0 0 40px;
+	box-sizing: border-box;
+
+	&.edgtf-title-custom {
+
+		.edgtf-st-title {
+			font-size: 50px;
+
+			@include ipad-landscape {
+				font-size: 37px;
+			}
+
+			@include phone-landscape {
+				font-size: 27px;
+			}
+		}
+	}
+
+    > .edgtf-section-title-inner {
+        position: relative;
+        z-index: 2;
+        margin: auto;
+    }
+
+	.edgtf-separator-sign {
+		position: relative;
+		display: inline-block;
+		height: 100%;
+		width: 1px;
+		margin: 0 19px;
+
+		&:after {
+			position: absolute;
+			display: block;
+			content: "";
+			top: 50%;
+			left: 0;
+			width: 100%;
+			height: 30px;
+			background-color: $default-heading-color;
+			@include edgtfTransform(rotateZ(15deg) translateY(-50%));
+		}
+	}
+	
+    .edgtf-st-title {
+		position: relative;
+	    display: inline-block;
+		vertical-align: middle;
+		padding: 0;
+		margin: 0;
+    }
+
+    .edgtf-st-subtitle {
+		display: inline-block;
+		vertical-align: -10px;
+        margin: 0;
+
+		@include ipad-portrait {
+			vertical-align: middle
+		}
+    }
+
+	.edgtf-link-holder {
+		float: right;
+		height: 70px;
+
+		.edgtf-btn {
+			position: relative;
+			display: block;
+			top: 62%;
+			@include edgtfTransform(translateY(-50%));
+
+			&:hover {
+				color: $first-main-color;
+			}
+
+			i {
+				font-size: 14px;
+			}
+		}
+
+		@include ipad-portrait {
+			float: none;
+			height: 40px;
+			
+			.edgtf-btn {
+				top: 50%;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Section Title shortcode styles - end
+   ========================================================================== */
+
+

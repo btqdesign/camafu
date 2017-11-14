@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Blog Single style - begin
+   ========================================================================== */
+
+.edgtf-blog-holder.edgtf-blog-single {
+	margin: 0 0 70px;
+	
+	article {
+		margin: 0 0 50px;
+		padding-bottom: 17px;
+		border-bottom: 1px solid $default-border-color;
+		
+		.edgtf-post-heading {
+			margin-bottom: 52px;
+		}
+		
+		//Video post style
+		&.format-video {
+			
+			.edgtf-post-heading {
+				margin-bottom: 0;
+			}
+		}
+		
+		//Link post style
+		&.format-link {
+			
+			.edgtf-post-link-holder {
+				margin: 0 0 32px;
+			}
+		}
+		
+		//Quote post style
+		&.format-quote {
+			
+			.edgtf-post-quote-holder {
+				margin: 0 0 32px;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Blog Single style - end
+   ========================================================================== */

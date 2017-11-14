@@ -1,0 +1,101 @@
+/* Single author box styles - begin
+	====================================================================== */
+
+.edgtf-author-description {
+    @include edgtfRelativeHolderLayout();
+    min-height: 144px;
+    margin: 40px 0 50px;
+    
+    .edgtf-unique-author-layout & {
+        padding-bottom: 53px;
+        margin-bottom: 74px;
+        border-bottom: 1px solid $default-border-color;
+    }
+
+    .edgtf-author-description-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 144px;
+
+        img {
+            display: block;
+            border-radius: 5em;
+        }
+    }
+
+    .edgtf-author-description-text {
+        position: relative;
+        padding: 0 0 0 180px;
+
+        .edgtf-author-name {
+            margin: 14px 0 0;
+            font-weight: 600;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+	        color: $default-heading-color;
+        }
+    
+        .edgtf-author-email {
+            margin: 0;
+        }
+
+        .edgtf-author-text {
+            @include edgtfRelativeHolderLayout();
+            margin: 11px 0 0;
+            
+            p {
+                margin: 0;
+            }
+        }
+
+        .edgtf-author-social-icons {
+            @include edgtfRelativeHolderLayout();
+            margin: 9px 0 0;
+            
+            a {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                padding: 0;
+                margin: 0 7px 0 0;
+                font-size: 11px;
+
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+    }
+    
+    @include ipad-portrait {
+        min-height: 100px;
+    
+        .edgtf-author-description-image {
+            width: 100px;
+        }
+    
+        .edgtf-author-description-text {
+            padding: 0 0 0 125px;
+        
+            .edgtf-author-name {
+                margin: 0;
+            }
+        }
+    }
+    
+    @include phone-portrait {
+        min-height: inherit;
+    
+        .edgtf-author-description-image {
+            position: relative;
+        }
+    
+        .edgtf-author-description-text {
+            padding: 25px 0 0;
+        }
+    }
+}
+
+/* Single author box styles - end
+	====================================================================== */
