@@ -1,11 +1,44 @@
 @media only screen and (max-width: 1024px){
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_content_responsive_styles function */
+.edgtf-content .edgtf-content-inner > .edgtf-container > .edgtf-container-inner, .edgtf-content .edgtf-content-inner > .edgtf-full-width > .edgtf-full-width-inner { padding-top: 40px!important;}
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px){
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_h1_responsive_styles3 function */
+h1 { font-size: 45px;line-height: 53px;}
+
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_h2_responsive_styles3 function */
+h2 { font-size: 28px;line-height: 31px;}
+
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_h3_responsive_styles3 function */
+h3 { font-size: 25px;line-height: 27px;}
+
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_h4_responsive_styles3 function */
+h4 { font-size: 21px;}
+
 }
 
 @media only screen and (min-width: 681px) and (max-width: 768px){
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_h1_responsive_styles function */
+h1 { font-size: 45px;line-height: 53px;}
+
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_h2_responsive_styles function */
+h2 { font-size: 28px;line-height: 31px;}
+
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_h3_responsive_styles function */
+h3 { font-size: 25px;line-height: 27px;}
+
 }
 
 @media only screen and (max-width: 680px){
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_h1_responsive_styles2 function */
+h1 { font-size: 26px;line-height: 34px;}
+
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_h2_responsive_styles2 function */
+h2 { font-size: 24px;line-height: 28px;}
+
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles-responsive.php mediadesk_edge_h3_responsive_styles2 function */
+h3 { font-size: 21px;line-height: 25px;}
+
 }
