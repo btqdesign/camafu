@@ -96,8 +96,10 @@ if ( ! function_exists( 'mediadesk_edge_google_fonts_styles' ) ) {
 		
 		//default fonts
 		$default_font_family = array(
-			'Open Sans',
-			'Playfair Display'
+			//'Open Sans',
+			//'Playfair Display'
+			'Lato',
+			'Libre Baskerville'	
 		);
 		
 		$modified_default_font_family = array();
