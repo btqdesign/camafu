@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaDesk\n"
 "POT-Creation-Date: 2018-02-06 18:44-0600\n"
-"PO-Revision-Date: 2018-02-06 18:49-0600\n"
+"PO-Revision-Date: 2018-02-06 18:52-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_MX\n"
@@ -4944,7 +4944,7 @@ msgstr ""
 
 #: framework/modules/title/types/breadcrumbs/functions.php:26
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: framework/modules/title/types/breadcrumbs/functions.php:58
 msgid "Posts tagged "
