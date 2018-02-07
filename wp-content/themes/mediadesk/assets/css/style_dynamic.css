@@ -23,22 +23,22 @@ a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
 .edgtf-content .edgtf-content-inner > .edgtf-container > .edgtf-container-inner { padding-top: 25px;}
 
 /* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles.php mediadesk_edge_h1_styles function */
-h1 { color: #000000;font-family: Libre Baskerville;font-style: normal;font-weight: 500;margin-top: 0px;margin-bottom: 0px;}
+h1 { color: #000000;font-family: Libre Baskerville;font-style: normal;font-weight: 400;margin-top: 0px;margin-bottom: 0px;}
 
 /* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles.php mediadesk_edge_h2_styles function */
-h2 { color: #000000;font-family: Libre Baskerville;font-style: normal;font-weight: 500;margin-top: 0px;margin-bottom: 0px;}
+h2 { color: #000000;font-family: Libre Baskerville;font-style: normal;font-weight: 400;margin-top: 0px;margin-bottom: 0px;}
 
 /* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles.php mediadesk_edge_h3_styles function */
-h3 { color: #000000;font-family: Libre Baskerville;font-style: normal;font-weight: 500;margin-top: 0px;margin-bottom: 0px;}
+h3 { color: #000000;font-family: Libre Baskerville;font-style: normal;font-weight: 400;margin-top: 0px;margin-bottom: 0px;}
 
 /* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles.php mediadesk_edge_h4_styles function */
-h4 { color: #000000;font-family: Libre Baskerville;font-style: normal;font-weight: 500;margin-top: 0px;margin-bottom: 0px;}
+h4 { color: #000000;font-family: Lato;margin-top: 0px;margin-bottom: 0px;}
 
 /* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles.php mediadesk_edge_h5_styles function */
 h5 { color: #000000;font-family: Lato;margin-top: 0px;margin-bottom: 0px;}
 
 /* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles.php mediadesk_edge_h6_styles function */
-h6 { color: #000000;font-family: Lato;font-weight: 400;margin-top: 0px;margin-bottom: 0px;}
+h6 { color: #000000;font-family: Lato;margin-top: 0px;margin-bottom: 0px;}
 
 /* generated in /var/www/camafu/wp-content/themes/mediadesk/assets/custom-styles/general-custom-styles.php mediadesk_edge_text_styles function */
 p { color: #3f3f3f;font-family: Lato;font-size: 14px;font-style: normal;font-weight: 400;}
@@ -105,6 +105,12 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: 
 
 /* generated in /var/www/camafu/wp-content/themes/mediadesk/framework/modules/header/types/fixed-header/admin/custom-styles/fixed-header-custom-styles.php mediadesk_edge_fixed_header_styles function */
 .edgtf-fixed-wrapper.fixed .edgtf-main-menu > ul > li:hover > a, .edgtf-fixed-wrapper.fixed .edgtf-main-menu > ul > li.edgtf-active-item > a { color: #e95a0c;}
+
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/framework/modules/header/types/mobile-header/admin/custom-styles/mobile-header-custom-styles.php mediadesk_edge_mobile_navigation_styles function */
+.edgtf-mobile-header .edgtf-mobile-nav .edgtf-grid > ul > li > a, .edgtf-mobile-header .edgtf-mobile-nav .edgtf-grid > ul > li > h6 { font-family: Lato;}
+
+/* generated in /var/www/camafu/wp-content/themes/mediadesk/framework/modules/header/types/mobile-header/admin/custom-styles/mobile-header-custom-styles.php mediadesk_edge_mobile_navigation_styles function */
+.edgtf-mobile-header .edgtf-mobile-nav ul ul li a, .edgtf-mobile-header .edgtf-mobile-nav ul ul li h6 { font-family: Lato;}
 
 /* generated in /var/www/camafu/wp-content/themes/mediadesk/framework/modules/header/types/sticky-header/admin/custom-styles/sticky-header-custom-styles.php mediadesk_edge_sticky_header_styles function */
 .edgtf-page-header .edgtf-sticky-header .edgtf-sticky-holder { background-color: rgba(255, 255, 255, 1);}
@@ -176,5 +182,5 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: 
 .edgtf-title-holder .edgtf-title-wrapper .edgtf-page-title { font-family: Libre Baskerville;font-style: normal;font-weight: 400;}
 
 /* generated in /var/www/camafu/wp-content/themes/mediadesk/framework/modules/title/admin/custom-styles/title-custom-styles.php mediadesk_edge_title_area_typography_style function */
-.edgtf-title-holder .edgtf-title-wrapper .edgtf-page-subtitle { font-family: Libre Baskerville;font-weight: 700;}
+.edgtf-title-holder .edgtf-title-wrapper .edgtf-page-subtitle { font-family: Libre Baskerville;font-style: normal;font-weight: 700;}
 
