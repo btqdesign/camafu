@@ -8,3 +8,20 @@ Version: 1.0
 Text Domain: mediadesk
 Template: mediadesk
 */
+
+@media screen and (max-width:1279px) and (min-width:1025px) {
+    .edgtf-main-menu>ul>li {
+	    width: 106px !important;
+	}
+	
+    .edgtf-main-menu>ul>li>a>span.item_outer .item_text {
+    	line-height: 12px !important;
+	}
+	
+	.edgtf-main-menu>ul>li>a>span.item_outer:after {
+	    top: calc(70% + 5px) !important;
+	    -webkit-transform: translateX(-50%) translateY(300%) !important;
+	    -moz-transform: translateX(-50%) translateY(300%) !important;
+	    transform: translateX(-50%) translateY(300%) !important;
+    }
+}
