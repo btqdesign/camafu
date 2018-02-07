@@ -9,7 +9,7 @@ Text Domain: mediadesk
 Template: mediadesk
 */
 
-@media screen and (max-width:1270px) and (min-width:1025px) {
+@media screen and (max-width:1275px) and (min-width:1025px) {
     .edgtf-main-menu>ul>li {
 	    width: 106px !important;
 	}
