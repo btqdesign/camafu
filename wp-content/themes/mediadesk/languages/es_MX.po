@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MediaDesk\n"
 "POT-Creation-Date: 2018-02-06 18:44-0600\n"
-"PO-Revision-Date: 2018-02-06 18:56-0600\n"
+"PO-Revision-Date: 2018-02-08 14:06-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_MX\n"
@@ -2335,7 +2335,7 @@ msgstr ""
 #: framework/modules/blog/admin/meta-boxes/blog-meta-boxes.php:116
 #: framework/modules/blog/admin/options-map/blog-map.php:199
 msgid "Load More"
-msgstr ""
+msgstr "Cargar más"
 
 #: framework/modules/blog/admin/meta-boxes/blog-meta-boxes.php:117
 #: framework/modules/blog/admin/options-map/blog-map.php:200
@@ -2809,7 +2809,7 @@ msgstr ""
 #: framework/modules/blog/templates/parts/pagination/load-more.php:16
 #: framework/modules/blog/templates/parts/pagination/load-more.php:25
 msgid "Load more"
-msgstr ""
+msgstr "Cargar más"
 
 #: framework/modules/blog/templates/parts/post-info/author.php:2
 msgid "by"
