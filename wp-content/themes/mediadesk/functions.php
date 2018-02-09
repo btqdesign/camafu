@@ -618,7 +618,7 @@ if ( ! function_exists( 'mediadesk_edge_get_global_variables' ) ) {
 	function mediadesk_edge_get_global_variables() {
 		$global_variables = array();
 		
-		$global_variables['id']                       = 1 
+		$global_variables['id']                       = 1; 
 		$global_variables['edgtfAddForAdminBar']      = is_admin_bar_showing() ? 32 : 0;
 		$global_variables['edgtfElementAppearAmount'] = - 100;
 		$global_variables['edgtfAjaxUrl']             = admin_url( 'admin-ajax.php' );
