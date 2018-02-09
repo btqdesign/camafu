@@ -551,7 +551,7 @@ if ( ! function_exists( 'edgtf_news_shortcodes_load_more' ) ) {
 	}
 	
 	add_action( 'wp_ajax_nopriv_edgtf_news_shortcodes_load_more', 'edgtf_news_shortcodes_load_more' );
-	add_action( 'wp_ajax_edgtf_news_shortcodes_load_more', 'edgtf_news_shortcodes_load_more' );
+	//add_action( 'wp_ajax_edgtf_news_shortcodes_load_more', 'edgtf_news_shortcodes_load_more' );
 }
 
 if ( ! function_exists( 'edgtf_news_shortcodes_filter' ) ) {
